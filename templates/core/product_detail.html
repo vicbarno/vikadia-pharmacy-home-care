@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product.name }} | Vikadia Pharmacy and Home Care{% endblock %}
+
+{% block content %}
+
+<section class="product-detail">
+    <div class="container">
+
+        <div class="product-detail-card">
+
+            <div class="product-detail-image">
+                {% if product.image %}
+                    <img src="{{ product.image.url }}"
+                         alt="{{ product.name }}">
+                {% else %}
+                    <div class="product-detail-placeholder">+</div>
+                {% endif %}
+            </div>
+
+            <div class="product-detail-info">
+
+                {% if product.category %}
+                    <span class="product-category">
+                        {{ product.category.name }}
+                    </span>
+                {% endif %}
+
+                <h1>{{ product.name }}</h1>
+
+                <p class="product-detail-description">
+                    {{ product.description }}
+                </p>
+
+                <div class="product-detail-price">
+                    KSh {{ product.price }}
+                </div>
+
+                {% if product.stock_quantity > 0 %}
+                    <span class="product-stock">
+                        In Stock
+                    </span>
+                {% else %}
+                    <span class="product-stock out-of-stock">
+                        Out of Stock
+                    </span>
+                {% endif %}
+
+                {% if product.requires_prescription %}
+                    <p class="prescription-notice">
+                        Prescription required for this medicine.
+                    </p>
+                {% endif %}
+
+                <div class="product-detail-actions">
+                    <a href="https://wa.me/254708282765?text=Hello%20Vikadia%20Pharmacy%2C%20I%20would%20like%20to%20order%20{{ product.name|urlencode }}.%20Price%3A%20KSh%20{{ product.price }}."
+   class="btn btn-primary"
+   target="_blank">
+    Order on WhatsApp
+</a>
+
+                    <a href="/#products"
+                       class="btn btn-secondary">
+                        Back to Products
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

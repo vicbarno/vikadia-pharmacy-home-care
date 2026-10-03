@@ -1,0 +1,127 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    pharmacy: {
+                        50: '#f0fdfa',
+                        100: '#ccfbf1',
+                        500: '#14b8a6',
+                        600: '#0d9488',
+                        700: '#0f766e',
+                        800: '#115e59',
+                        900: '#134e4a'
+                    }
+                },
+                boxShadow: {
+                    soft: '0 10px 40px rgba(15, 118, 110, 0.10)'
+                }
+            }
+        }
+    }
+</script>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Pharmacy & Home Care{% endblock %}</title>
+
+    <meta name="description"
+          content="Professional pharmacy, healthcare and home-based care services.">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body>
+
+ 
+    {% include "components/navbar.html" %}
+
+    {% block content %}
+    {% endblock %}<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="/" class="footer-logo">
+                    <span class="logo-icon">+</span>
+                    <span>Vikadia Pharmacy and Home Care</span>
+                </a>
+
+                <p>
+                    Professional pharmacy, healthcare and home-based
+                    care services focused on convenient and compassionate
+                    patient support.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="/">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Our Services</h3>
+
+                <a href="#services">Prescription Dispensing</a>
+                <a href="#health-checks">Health Checks</a>
+                <a href="#home-care">Home Based Care</a>
+                <a href="#services">Vaccination Services</a>
+                <a href="#services">Home Delivery</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Contact Us</h3>
+
+                <p>Phone: Contact Us</p>
+                <p>WhatsApp: Message Us</p>
+                <p>Location: Visit Our Pharmacy</p>
+                <p>Opening Hours: 24/7</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Vikadia Pharmacy and Home Care.
+                All rights reserved.
+            </p>
+
+            <p>
+                Professional Healthcare • Pharmacy • Home Care
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+</body>
+</html>
