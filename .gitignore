@@ -4,6 +4,12 @@ __pycache__/
 db.sqlite3
 .env
 .env.*
-media/
 staticfiles/
 *.log
+
+# Ignore most media files
+media/*
+!media/
+!media/products/
+!media/products/**
+!media/logo chemist.png
