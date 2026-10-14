@@ -1,0 +1,72 @@
+{% load pharmacy %}
+<article class="product-card">
+    <a href="{% url 'product_detail' product.id %}"
+       class="product-card-main"
+       aria-label="View details for {{ product.name }}">
+        <span class="product-media">
+            {% if product|has_product_image %}
+                <img src="{{ product.image.url }}"
+                     alt="{{ product.name }} product image"
+                     class="product-image"
+                     loading="lazy"
+                     decoding="async">
+            {% else %}
+                <span class="product-placeholder"
+                      role="img"
+                      aria-label="No product photo available. {{ product.category.name|default:'Pharmacy product' }} icon shown.">
+                    {% if product.category %}
+                        {% category_icon product.category.name "product-placeholder-icon" %}
+                    {% else %}
+                        {% category_icon "" "product-placeholder-icon" %}
+                    {% endif %}
+                </span>
+            {% endif %}
+        </span>
+
+        {% if product.category %}
+            <span class="product-category">
+                {{ product.category.name }}
+            </span>
+        {% endif %}
+
+        <h3>{{ product.name }}</h3>
+        <p class="product-card-description">
+            {{ product.description|default:"Product details are available from our pharmacy team." }}
+        </p>
+    </a>
+
+    <div class="product-card-footer">
+        <strong class="product-price">KSh {{ product.price|floatformat:2 }}</strong>
+        {% if product.stock_quantity > 0 %}
+            <span class="product-stock">In stock</span>
+        {% else %}
+            <span class="product-stock out-of-stock">Out of stock</span>
+        {% endif %}
+
+        {% if product.requires_prescription %}
+            <a href="{% product_enquiry_url product %}"
+               class="product-order-btn"
+               target="_blank"
+               rel="noopener noreferrer">
+                {% category_icon "Customer support" "button-icon" %}
+                Ask pharmacist
+            </a>
+        {% elif product.stock_quantity > 0 %}
+            <a href="{% product_enquiry_url product %}"
+               class="product-order-btn"
+               target="_blank"
+               rel="noopener noreferrer">
+                {% category_icon "Customer support" "button-icon" %}
+                Enquire on WhatsApp
+            </a>
+        {% else %}
+            <a href="{% product_enquiry_url product %}"
+               class="product-order-btn product-order-btn-secondary"
+               target="_blank"
+               rel="noopener noreferrer">
+                {% category_icon "Customer support" "button-icon" %}
+                Check availability
+            </a>
+        {% endif %}
+    </div>
+</article>

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load pharmacy %}
 
 {% block title %}{{ product.name }} | Vikadia Pharmacy and Home Care{% endblock %}
 
@@ -6,15 +7,25 @@
 
 <section class="product-detail">
     <div class="container">
+        <a class="detail-back-link" href="{% url 'products' %}">← Back to products</a>
 
         <div class="product-detail-card">
 
             <div class="product-detail-image">
-                {% if product.image %}
+                {% if product|has_product_image %}
                     <img src="{{ product.image.url }}"
-                         alt="{{ product.name }}">
+                         alt="{{ product.name }} product"
+                         decoding="async">
                 {% else %}
-                    <div class="product-detail-placeholder">+</div>
+                    <div class="product-detail-placeholder"
+                         role="img"
+                         aria-label="No product photo available. Category icon shown.">
+                        {% if product.category %}
+                            {% category_icon product.category.name "product-placeholder-icon" %}
+                        {% else %}
+                            {% category_icon "" "product-placeholder-icon" %}
+                        {% endif %}
+                    </div>
                 {% endif %}
             </div>
 
@@ -22,6 +33,7 @@
 
                 {% if product.category %}
                     <span class="product-category">
+                        {% category_icon product.category.name "product-category-icon" %}
                         {{ product.category.name }}
                     </span>
                 {% endif %}
@@ -33,36 +45,76 @@
                 </p>
 
                 <div class="product-detail-price">
-                    KSh {{ product.price }}
+                    KSh {{ product.price|floatformat:2 }}
                 </div>
 
                 {% if product.stock_quantity > 0 %}
-                    <span class="product-stock">
-                        In Stock
+                    <span class="product-stock" role="status">
+                        In stock
                     </span>
                 {% else %}
-                    <span class="product-stock out-of-stock">
-                        Out of Stock
+                    <span class="product-stock out-of-stock" role="status">
+                        Out of stock
                     </span>
                 {% endif %}
 
                 {% if product.requires_prescription %}
                     <p class="prescription-notice">
-                        Prescription required for this medicine.
+                        This medicine requires a prescription. Contact our pharmacy team for guidance before requesting it.
                     </p>
                 {% endif %}
 
-                <div class="product-detail-actions">
-                    <a href="https://wa.me/254708282765?text=Hello%20Vikadia%20Pharmacy%2C%20I%20would%20like%20to%20order%20{{ product.name|urlencode }}.%20Price%3A%20KSh%20{{ product.price }}."
-   class="btn btn-primary"
-   target="_blank">
-    Order on WhatsApp
-</a>
+                {% if product.stock_quantity > 0 and not product.requires_prescription %}
+                    <div class="requested-quantity">
+                        <label for="requested-quantity">Quantity to ask about</label>
+                        <input id="requested-quantity"
+                               type="number"
+                               min="1"
+                               max="{{ product.stock_quantity }}"
+                               value="1"
+                               inputmode="numeric"
+                               aria-describedby="quantity-enquiry-note">
+                        <p id="quantity-enquiry-note">
+                            This sends an availability enquiry only; it does not reserve stock or confirm an order.
+                        </p>
+                    </div>
+                {% endif %}
 
-                    <a href="/#products"
-                       class="btn btn-secondary">
-                        Back to Products
-                    </a>
+                <div class="product-detail-actions">
+                    {% if product.requires_prescription %}
+                        <a href="{% product_enquiry_url product %}"
+                           class="btn btn-primary"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           data-product-enquiry
+                           data-whatsapp-url="{% pharmacy_whatsapp_url %}"
+                           data-enquiry-message="{% product_enquiry_message product %}">
+                            {% category_icon "Customer support" "button-icon" %}
+                            Ask pharmacist about prescription
+                        </a>
+                    {% elif product.stock_quantity > 0 %}
+                        <a href="{% product_enquiry_url product %}"
+                           class="btn btn-primary"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           data-product-enquiry
+                           data-whatsapp-url="{% pharmacy_whatsapp_url %}"
+                           data-enquiry-message="{% product_enquiry_message product %}">
+                            {% category_icon "Customer support" "button-icon" %}
+                            Enquire on WhatsApp
+                        </a>
+                    {% else %}
+                        <a href="{% product_enquiry_url product %}"
+                           class="btn btn-primary"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           data-product-enquiry
+                           data-whatsapp-url="{% pharmacy_whatsapp_url %}"
+                           data-enquiry-message="{% product_enquiry_message product %}">
+                            {% category_icon "Customer support" "button-icon" %}
+                            Check availability
+                        </a>
+                    {% endif %}
                 </div>
 
             </div>

@@ -3,125 +3,288 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://cdn.tailwindcss.com"></script>
-<script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                colors: {
-                    pharmacy: {
-                        50: '#f0fdfa',
-                        100: '#ccfbf1',
-                        500: '#14b8a6',
-                        600: '#0d9488',
-                        700: '#0f766e',
-                        800: '#115e59',
-                        900: '#134e4a'
-                    }
-                },
-                boxShadow: {
-                    soft: '0 10px 40px rgba(15, 118, 110, 0.10)'
-                }
-            }
-        }
-    }
-</script>
-<meta charset="UTF-8">
+
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{% block title %}Pharmacy & Home Care{% endblock %}</title>
+    <title>{% block title %}Vikadia Pharmacy and Home Care{% endblock %}</title>
 
     <meta name="description"
-          content="Professional pharmacy, healthcare and home-based care services.">
+          content="Vikadia Pharmacy and Home Care provides medicines, healthcare services, health checks, home-based care and convenient pharmacy support.">
 
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta name="theme-color" content="#0B7A5E">
+    <meta name="color-scheme" content="light">
+
+    <link rel="icon"
+          type="image/png"
+          href="/media/logo chemist.png">
+
+    <link rel="stylesheet"
+          href="{% static 'css/style.css' %}">
 
     {% block extra_css %}{% endblock %}
+
 </head>
 
 <body>
 
- 
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    {% load pharmacy %}
+    <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <symbol id="icon-search" viewBox="0 0 24 24">
+            <circle cx="10.8" cy="10.8" r="6.8"/>
+            <path d="m16 16 5 5"/>
+        </symbol>
+        <symbol id="icon-pill" viewBox="0 0 24 24">
+            <path d="m10.5 20.5 10-10a5.66 5.66 0 0 0-8-8l-10 10a5.66 5.66 0 0 0 8 8Z"/>
+            <path d="m8.5 8.5 7 7"/>
+        </symbol>
+        <symbol id="icon-prescription" viewBox="0 0 24 24">
+            <path d="M8 3h8l4 4v14H4V3h4Z"/>
+            <path d="M14 3v5h6M8 13h8M8 17h5"/>
+        </symbol>
+        <symbol id="icon-vitamin" viewBox="0 0 24 24">
+            <path d="M12 3v18M3 12h18"/>
+            <circle cx="12" cy="12" r="9"/>
+        </symbol>
+        <symbol id="icon-baby" viewBox="0 0 24 24">
+            <path d="M9 3h6M12 3v3M5 13a7 7 0 0 1 14 0v2a7 7 0 0 1-14 0v-2Z"/>
+            <path d="M9 13h.01M15 13h.01M9 17c1.7 1.3 4.3 1.3 6 0"/>
+        </symbol>
+        <symbol id="icon-skin" viewBox="0 0 24 24">
+            <path d="M12 22s8-4.4 8-11V5l-8-3-8 3v6c0 6.6 8 11 8 11Z"/>
+            <path d="M9 12s1.2-2 3-2 3 2 3 2-1.2 2-3 2-3-2-3-2Z"/>
+        </symbol>
+        <symbol id="icon-first-aid" viewBox="0 0 24 24">
+            <path d="M4 7h16v14H4zM9 7V4h6v3M12 10v8M8 14h8"/>
+        </symbol>
+        <symbol id="icon-device" viewBox="0 0 24 24">
+            <rect x="4" y="3" width="16" height="18" rx="2"/>
+            <path d="M8 7h8M8 11h2l2-2 2 5 2-3h2M10 17h4"/>
+        </symbol>
+        <symbol id="icon-wellness" viewBox="0 0 24 24">
+            <path d="M20.8 8.6c0 5.2-8.8 11-8.8 11s-8.8-5.8-8.8-11a4.6 4.6 0 0 1 8.8-1.9 4.6 4.6 0 0 1 8.8 1.9Z"/>
+            <path d="M7 12h3l1.5-3 2.5 6 1.5-3H18"/>
+        </symbol>
+        <symbol id="icon-leaf" viewBox="0 0 24 24">
+            <path d="M20 4c-9 0-15 4-15 11a5 5 0 0 0 5 5c7 0 11-6 10-16Z"/>
+            <path d="M4 21c3-5 7-8 12-11"/>
+        </symbol>
+        <symbol id="icon-heart-pulse" viewBox="0 0 24 24">
+            <path d="M20.8 8.6c0 5.2-8.8 11-8.8 11s-8.8-5.8-8.8-11a4.6 4.6 0 0 1 8.8-1.9 4.6 4.6 0 0 1 8.8 1.9Z"/>
+            <path d="M6.5 12h3l1.4-2.5 2.2 5 1.4-2.5h3"/>
+        </symbol>
+        <symbol id="icon-shopping-bag" viewBox="0 0 24 24">
+            <path d="M5 8h14l1 13H4L5 8Z"/>
+            <path d="M9 9V6a3 3 0 0 1 6 0v3"/>
+        </symbol>
+        <symbol id="icon-message" viewBox="0 0 24 24">
+            <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-5.5a9 9 0 0 1-.9-4A8.5 8.5 0 1 1 21 11.5Z"/>
+            <path d="M8 12h.01M12 12h.01M16 12h.01"/>
+        </symbol>
+        <symbol id="icon-map-pin" viewBox="0 0 24 24">
+            <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>
+            <circle cx="12" cy="10" r="2.5"/>
+        </symbol>
+        <symbol id="icon-phone" viewBox="0 0 24 24">
+            <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.7L7.3 10a16 16 0 0 0 6 6l1.6-1.7a2 2 0 0 1 1.7-.6l3 .5a2 2 0 0 1 1.4 2.7Z"/>
+        </symbol>
+        <symbol id="icon-clock" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 7v5l3 2"/>
+        </symbol>
+        <symbol id="icon-package" viewBox="0 0 24 24">
+            <path d="m12 3 9 5-9 5-9-5 9-5Z"/>
+            <path d="M3 8v9l9 5 9-5V8M12 13v9M7.5 5.5l9 5"/>
+        </symbol>
+        <symbol id="icon-refresh" viewBox="0 0 24 24">
+            <path d="M20 7v5h-5M4 17v-5h5"/>
+            <path d="M5.6 9a7 7 0 0 1 11.7-2L20 12M4 12l2.7 5a7 7 0 0 0 11.7-2"/>
+        </symbol>
+        <symbol id="icon-stethoscope" viewBox="0 0 24 24">
+            <path d="M6 3v5a4 4 0 0 0 8 0V3M4 3h4M12 3h4M10 12v2a5 5 0 0 0 10 0v-2"/>
+            <circle cx="20" cy="10" r="2"/>
+            <path d="M15 19h2"/>
+        </symbol>
+        <symbol id="icon-drop" viewBox="0 0 24 24">
+            <path d="M12 22a7 7 0 0 0 7-7c0-4-7-13-7-13S5 11 5 15a7 7 0 0 0 7 7Z"/>
+            <path d="M9 16a3 3 0 0 0 3 3"/>
+        </symbol>
+        <symbol id="icon-syringe" viewBox="0 0 24 24">
+            <path d="m18 2 4 4M17 7l-8 8M14 4l6 6M5 20l-2 2M3 16l5 5M4 17l6-6M13 8l3 3"/>
+        </symbol>
+        <symbol id="icon-home-care" viewBox="0 0 24 24">
+            <path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-6v-7h-4v7H4a1 1 0 0 1-1-1V10Z"/>
+            <path d="M8 11h2l1-2 2 4 1-2h2"/>
+        </symbol>
+        <symbol id="icon-truck" viewBox="0 0 24 24">
+            <path d="M3 5h11v12H3zM14 9h4l3 4v4h-7z"/>
+            <circle cx="7.5" cy="18" r="2"/>
+            <circle cx="18" cy="18" r="2"/>
+        </symbol>
+    </svg>
+
+    <!-- ============================= -->
+    <!-- NAVIGATION -->
+    <!-- ============================= -->
+
     {% include "components/navbar.html" %}
 
-    {% block content %}
-    {% endblock %}<footer class="site-footer">
 
-    <div class="container">
+    <!-- ============================= -->
+    <!-- PAGE CONTENT -->
+    <!-- ============================= -->
 
-        <div class="footer-grid">
+    <main id="main-content">
+        {% block content %}
+        {% endblock %}
+    </main>
 
-            <div class="footer-brand">
 
-                <a href="/" class="footer-logo">
-                    <span class="logo-icon">+</span>
-                    <span>Vikadia Pharmacy and Home Care</span>
-                </a>
+    <!-- ============================= -->
+    <!-- FOOTER -->
+    <!-- ============================= -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Brand -->
+
+                <div class="footer-brand">
+
+                    <a href="{% url 'home' %}"
+                       class="footer-logo">
+
+                        <img src="/media/logo chemist.png"
+                             alt="Vikadia Pharmacy and Home Care">
+
+                    </a>
+
+                    <p>
+                        Vikadia Pharmacy and Home Care provides
+                        professional pharmacy services, healthcare
+                        support and compassionate home-based care.
+                    </p>
+
+                    <a href="{% pharmacy_whatsapp_url %}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="footer-whatsapp">
+
+                        Chat with us on WhatsApp
+
+                    </a>
+
+                </div>
+
+
+                <!-- Quick Links -->
+
+                <div class="footer-column">
+
+                    <h3>Quick Links</h3>
+
+                    <a href="{% url 'home' %}">
+                        Home
+                    </a>
+
+                    <a href="{% url 'home' %}#services">
+                        Services
+                    </a>
+
+                    <a href="{% url 'products' %}">
+                        Products
+                    </a>
+
+                    <a href="{% url 'home' %}#contact">
+                        Contact
+                    </a>
+
+                </div>
+
+
+                <!-- Services -->
+
+                <div class="footer-column">
+
+                    <h3>Our Services</h3>
+
+                    <a href="{% url 'home' %}#services">
+                        Prescription Dispensing
+                    </a>
+
+                    <a href="{% url 'home' %}#health-checks">
+                        Health Checks
+                    </a>
+
+                    <a href="{% url 'home' %}#home-care">
+                        Home Based Care
+                    </a>
+
+                    <a href="{% url 'home' %}#services">
+                        Vaccination Services
+                    </a>
+
+                    <a href="{% url 'home' %}#services">
+                        Home Delivery
+                    </a>
+
+                </div>
+
+
+                <!-- Contact -->
+
+                <div class="footer-column">
+
+                    <h3>Contact Us</h3>
+
+                    <a href="tel:+{% pharmacy_phone_number %}">
+                        {% category_icon "Telephone" "footer-contact-icon" %}
+                        {% pharmacy_phone_display %}
+                    </a>
+
+                    <a href="{% pharmacy_whatsapp_url %}"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        {% category_icon "Customer support" "footer-contact-icon" %}
+                        WhatsApp Us
+                    </a>
+
+                    <p>
+                        {% category_icon "Location" "footer-contact-icon" %}
+                        Call or message us for directions.
+                    </p>
+                    <p>{% category_icon "Opening hours" "footer-contact-icon" %} Hours: Please confirm by phone.</p>
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+
+            <div class="footer-bottom">
 
                 <p>
-                    Professional pharmacy, healthcare and home-based
-                    care services focused on convenient and compassionate
-                    patient support.
+                    &copy; {% now "Y" %} Vikadia Pharmacy and Home Care.
+                    All rights reserved.
+                </p>
+
+                <p>
+                    Pharmacy &bull; Healthcare &bull; Home Care
                 </p>
 
             </div>
 
-
-            <div class="footer-column">
-
-                <h3>Quick Links</h3>
-
-                <a href="/">Home</a>
-                <a href="#about">About Us</a>
-                <a href="#services">Services</a>
-                <a href="#products">Products</a>
-                <a href="#contact">Contact</a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h3>Our Services</h3>
-
-                <a href="#services">Prescription Dispensing</a>
-                <a href="#health-checks">Health Checks</a>
-                <a href="#home-care">Home Based Care</a>
-                <a href="#services">Vaccination Services</a>
-                <a href="#services">Home Delivery</a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h3>Contact Us</h3>
-
-                <p>Phone: Contact Us</p>
-                <p>WhatsApp: Message Us</p>
-                <p>Location: Visit Our Pharmacy</p>
-                <p>Opening Hours: 24/7</p>
-
-            </div>
-
         </div>
 
+    </footer>
 
-        <div class="footer-bottom">
 
-            <p>
-                © 2026 Vikadia Pharmacy and Home Care.
-                All rights reserved.
-            </p>
-
-            <p>
-                Professional Healthcare • Pharmacy • Home Care
-            </p>
-
-        </div>
-
-    </div>
-
-</footer>
+    <script src="{% static 'js/main.js' %}" defer></script>
 </body>
 </html>

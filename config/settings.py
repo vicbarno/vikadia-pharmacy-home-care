@@ -194,6 +194,12 @@ if not DEBUG:
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
+PHARMACY_PHONE_NUMBER = os.environ.get("PHARMACY_PHONE_NUMBER", "254708282765")
+PHARMACY_WHATSAPP_NUMBER = os.environ.get(
+    "PHARMACY_WHATSAPP_NUMBER",
+    PHARMACY_PHONE_NUMBER,
+)
+
 
 # ============================================================
 # EMAIL

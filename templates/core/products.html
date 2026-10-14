@@ -1,217 +1,127 @@
 {% extends "base.html" %}
+{% load pharmacy %}
 
-{% block title %}All Products | Vikadia Pharmacy and Home Care{% endblock %}
+{% block title %}Browse Products | Vikadia Pharmacy and Home Care{% endblock %}
 
 {% block content %}
+<section class="catalog-page">
+    <div class="container">
+        <header class="catalog-heading">
+            <span class="section-label">Vikadia Pharmacy</span>
+            <h1>Browse pharmacy essentials</h1>
+            <p>Search medicines, wellness products and everyday healthcare supplies.</p>
+        </header>
 
-<section class="min-h-screen bg-slate-50 py-14 md:py-20">
+        <form method="get"
+              class="catalog-filters"
+              id="catalog-search"
+              role="search"
+              aria-label="Search and filter products"
+              data-loading-form>
+            <div class="catalog-search-field">
+                <label for="product-search">Search products</label>
+                <input id="product-search"
+                       type="search"
+                       name="q"
+                       value="{{ search_query }}"
+                       placeholder="Search by product, category or item code"
+                       maxlength="120"
+                       autocomplete="off">
+            </div>
 
-    <div class="mx-auto max-w-7xl px-5 md:px-8">
+            <div class="catalog-category-field">
+                <label for="product-category">Category</label>
+                <select id="product-category" name="category">
+                    <option value="">All categories</option>
+                    {% for category in categories %}
+                        <option value="{{ category }}"
+                            {% if category == category_filter %}selected{% endif %}>
+                            {{ category }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
 
-        <!-- Header -->
-        <div class="mx-auto max-w-3xl text-center">
+            <div class="catalog-availability-field">
+                <label for="product-availability">Availability</label>
+                <select id="product-availability" name="availability">
+                    <option value="">All items</option>
+                    <option value="in_stock" {% if availability_filter == "in_stock" %}selected{% endif %}>In stock</option>
+                    <option value="out_of_stock" {% if availability_filter == "out_of_stock" %}selected{% endif %}>Out of stock</option>
+                </select>
+            </div>
 
-            <span class="inline-flex rounded-full bg-teal-100 px-4 py-2 text-sm font-semibold text-teal-700">
-                Vikadia Pharmacy
-            </span>
+            <div class="catalog-sort-field">
+                <label for="product-sort">Sort by</label>
+                <select id="product-sort" name="sort">
+                    {% for sort_value, sort_label in sort_options %}
+                        <option value="{{ sort_value }}" {% if sort_value == sort_by %}selected{% endif %}>
+                            {{ sort_label }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
 
-            <h1 class="mt-5 text-4xl font-bold tracking-tight text-slate-900 md:text-5xl">
-                Browse Our Products
-            </h1>
+            <button class="btn btn-primary catalog-submit" type="submit">
+                {% category_icon "Search" "button-icon" %}
+                <span>Apply filters</span>
+            </button>
+        </form>
 
-            <p class="mt-4 text-base leading-7 text-slate-600 md:text-lg">
-                Find medicines, wellness products, healthcare supplies
-                and everyday pharmacy essentials.
-            </p>
-
-        </div>
-
-        <!-- Search + Filter -->
-        <div class="mt-10 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
-
-            <form method="get"
-                  class="grid grid-cols-1 gap-3 md:grid-cols-12">
-
-                <div class="md:col-span-6">
-                    <input
-                        type="text"
-                        name="q"
-                        value="{{ search_query }}"
-                        placeholder="Search for a product..."
-                        class="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100">
-                </div>
-
-                <div class="md:col-span-4">
-                    <select
-                        name="category"
-                        class="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100">
-
-                        <option value="">All categories</option>
-
-                        {% for category in categories %}
-                            <option value="{{ category }}"
-                                {% if category == category_filter %}selected{% endif %}>
-                                {{ category }}
-                            </option>
-                        {% endfor %}
-
-                    </select>
-                </div>
-
-                <div class="md:col-span-2">
-                    <button
-                        type="submit"
-                        class="w-full rounded-xl bg-teal-700 px-5 py-3 text-sm font-semibold text-white transition hover:bg-teal-800">
-                        Search
-                    </button>
-                </div>
-
-            </form>
-
-        </div>
-
-        <!-- Results header -->
-        <div class="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-
+        <div class="catalog-results-heading">
             <div>
-                <h2 class="text-xl font-bold text-slate-900">
-                    Products
-                </h2>
-
-                <p class="mt-1 text-sm text-slate-500">
-                    {{ products|length }} product{{ products|length|pluralize }} found
+                <h2>Products</h2>
+                <p>
+                    {{ product_count }} result{{ product_count|pluralize }}
+                    {% if search_query %}for “{{ search_query }}”{% endif %}
+                    {% if category_filter %}in {{ category_filter }}{% endif %}
                 </p>
             </div>
-
-            <a href="{% url 'home' %}"
-               class="text-sm font-semibold text-teal-700 hover:text-teal-800">
-                ← Back to Home
-            </a>
-
+            {% if search_query or category_filter or availability_filter or sort_by != "name" %}
+                <a class="text-link" href="{% url 'products' %}">Clear filters</a>
+            {% endif %}
         </div>
 
-        <!-- Product Grid -->
-        <div class="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {% if products %}
+            <div class="products-grid catalog-grid">
+                {% for product in products %}
+                    {% include "components/product_card.html" with product=product %}
+                {% endfor %}
+            </div>
 
-            {% for product in products %}
-
-            <article class="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-
-                <!-- Image -->
-                <a href="{% url 'product_detail' product.id %}"
-                   class="flex h-52 items-center justify-center bg-slate-50 p-5">
-
-                    {% if product.image %}
-
-                        <img
-                            src="{{ product.image.url }}"
-                            alt="{{ product.name }}"
-                            class="h-full w-full object-contain transition duration-300 group-hover:scale-105">
-
+            {% if page_obj.has_other_pages %}
+                <nav class="pagination" aria-label="Product pages">
+                    {% if page_obj.has_previous %}
+                        <a href="?q={{ search_query|urlencode }}&amp;category={{ category_filter|urlencode }}&amp;availability={{ availability_filter|urlencode }}&amp;sort={{ sort_by|urlencode }}&amp;page={{ page_obj.previous_page_number }}">
+                            Previous
+                        </a>
                     {% else %}
-
-                        <div class="flex h-20 w-20 items-center justify-center rounded-2xl bg-teal-100 text-4xl font-bold text-teal-600">
-                            +
-                        </div>
-
+                        <span class="pagination-disabled" aria-disabled="true">Previous</span>
                     {% endif %}
 
-                </a>
+                    <span class="pagination-status" aria-current="page">
+                        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+                    </span>
 
-                <!-- Details -->
-                <div class="flex flex-1 flex-col p-5">
-
-                    {% if product.category %}
-                        <span class="text-xs font-bold uppercase tracking-wider text-teal-700">
-                            {{ product.category.name }}
-                        </span>
+                    {% if page_obj.has_next %}
+                        <a href="?q={{ search_query|urlencode }}&amp;category={{ category_filter|urlencode }}&amp;availability={{ availability_filter|urlencode }}&amp;sort={{ sort_by|urlencode }}&amp;page={{ page_obj.next_page_number }}">
+                            Next
+                        </a>
+                    {% else %}
+                        <span class="pagination-disabled" aria-disabled="true">Next</span>
                     {% endif %}
-
-                    <a href="{% url 'product_detail' product.id %}">
-                        <h3 class="mt-2 text-lg font-bold text-slate-900 transition hover:text-teal-700">
-                            {{ product.name }}
-                        </h3>
-                    </a>
-
-                    <p class="mt-2 line-clamp-3 text-sm leading-6 text-slate-500">
-                        {{ product.description }}
-                    </p>
-
-                    <div class="mt-auto pt-5">
-
-                        <div class="flex items-center justify-between gap-3">
-
-                            <span class="text-lg font-bold text-slate-900">
-                                KSh {{ product.price }}
-                            </span>
-
-                            {% if product.stock_quantity > 0 %}
-
-                                <span class="rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-semibold text-emerald-700">
-                                    In Stock
-                                </span>
-
-                            {% else %}
-
-                                <span class="rounded-full bg-red-50 px-2.5 py-1 text-xs font-semibold text-red-700">
-                                    Out of Stock
-                                </span>
-
-                            {% endif %}
-
-                        </div>
-
-                        <div class="mt-4 flex gap-2">
-
-                            <a
-                                href="{% url 'product_detail' product.id %}"
-                                class="flex-1 rounded-lg border border-slate-200 px-3 py-2 text-center text-xs font-semibold text-slate-700 transition hover:bg-slate-50">
-                                View Details
-                            </a>
-
-                            <a
-                                href="https://wa.me/254708282765?text=Hello%20Vikadia%20Pharmacy%2C%20I%20would%20like%20to%20order%20{{ product.name|urlencode }}.%20Price%3A%20KSh%20{{ product.price }}."
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="flex-1 rounded-lg bg-teal-700 px-3 py-2 text-center text-xs font-semibold text-white transition hover:bg-teal-800">
-                                WhatsApp
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-            {% empty %}
-
-            <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white py-20 text-center">
-
-                <div class="text-5xl text-slate-300">+</div>
-
-                <h3 class="mt-4 text-xl font-bold text-slate-800">
-                    No products found
-                </h3>
-
-                <p class="mt-2 text-sm text-slate-500">
-                    Try another product name or category.
-                </p>
-
-                <a href="{% url 'products' %}"
-                   class="mt-6 inline-flex rounded-xl bg-teal-700 px-5 py-3 text-sm font-semibold text-white">
-                    View All Products
-                </a>
-
+                </nav>
+            {% endif %}
+        {% else %}
+            <div class="catalog-empty" role="status">
+                <span class="empty-icon" aria-hidden="true">
+                    {% category_icon "Pharmacy product" "empty-icon-svg" %}
+                </span>
+                <h2>No matching products</h2>
+                <p>Try a product name, item code or another category, or reset the filters to browse all products.</p>
+                <a href="{% url 'products' %}" class="btn btn-primary">View all products</a>
             </div>
-
-            {% endfor %}
-
-        </div>
-
+        {% endif %}
     </div>
-
 </section>
-
 {% endblock %}

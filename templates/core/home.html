@@ -1,6 +1,7 @@
 {% extends "base.html" %}
+{% load pharmacy %}
 
-{% block title %}Home | Pharmacy & Home Care{% endblock %}
+{% block title %}Vikadia Pharmacy & Home Care | Everyday Health, Personal Care{% endblock %}
 
 {% block content %}
 
@@ -9,67 +10,78 @@
 
         <div class="hero-content">
 
-            <span class="hero-badge">
-                Trusted Pharmacy & Home Care
-            </span>
+            <span class="hero-badge">PHARMACY &amp; HOME CARE</span>
 
             <h1>
-                Your Health,
-                <span>Our Priority.</span>
+                Care that feels close.
+                <span>Health within reach.</span>
             </h1>
 
             <p>
-                Providing affordable medicines, professional consultations,
-                preventive healthcare, nursing home-based care and wellness
-                services — all under one roof.
+                Find everyday medicines, health essentials and home-care
+                support, with a friendly team ready to help you choose.
             </p>
 
             <div class="hero-buttons">
                 <a href="#contact" class="btn btn-primary">
-                    Contact Us
+                    Contact our team
                 </a>
 
-                <a href="https://wa.me/" class="btn btn-whatsapp">
-                    WhatsApp
+                <a href="{% url 'products' %}" class="btn btn-outline">
+                    Browse products
                 </a>
 
-                <a href="#prescription" class="btn btn-outline">
-                    Order Prescription
+                <a href="{% pharmacy_whatsapp_url %}"
+                   class="btn btn-whatsapp"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    WhatsApp us
                 </a>
             </div>
 
-            <div class="hero-trust">
-
-                <div class="trust-item">
-                    <strong>✓</strong>
-                    <span>Genuine Medicines</span>
-                </div>
-
-                <div class="trust-item">
-                    <strong>✓</strong>
-                    <span>Qualified Professionals</span>
-                </div>
-
-                <div class="trust-item">
-                    <strong>✓</strong>
-                    <span>Open 24/7</span>
-                </div>
-
-                <div class="trust-item">
-                    <strong>✓</strong>
-                    <span>Fast Service</span>
-                </div>
-
-            </div>
+            <p class="hero-note">
+                Need help with a product or prescription? Call
+                <a href="tel:+{% pharmacy_phone_number %}">{% pharmacy_phone_display %}</a>.
+            </p>
 
         </div>
 
         <div class="hero-image">
-            <div class="hero-image-placeholder">
-                <span>Vikadia Pharmacy & Home Care</span>
+            <img src="/media/hero-pharmacy-C_73Yvld.jpg"
+                 alt="Pharmacist assisting a family at the pharmacy counter"
+                 fetchpriority="high">
+            <div class="hero-image-caption">
+                <span class="caption-icon" aria-hidden="true">
+                    <svg><use href="#icon-wellness"></use></svg>
+                </span>
+                <span><strong>Here for your health</strong><small>Pharmacy and home-care support</small></span>
             </div>
         </div>
 
+    </div>
+</section>
+
+<section class="category-shortcuts" aria-labelledby="category-shortcuts-title">
+    <div class="container">
+        <div class="category-shortcuts-heading">
+            <div>
+                <span class="section-label">Shop by category</span>
+                <h2 id="category-shortcuts-title">What can we help you find?</h2>
+            </div>
+            <a href="{% url 'products' %}" class="text-link">Browse all products <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="category-shortcuts-grid">
+            {% for category in category_navigation %}
+                <a class="category-shortcut"
+                   href="{% url 'products' %}?category={{ category.name|urlencode }}">
+                    <span class="category-shortcut-icon" aria-hidden="true">
+                        {% category_icon category.name %}
+                    </span>
+                    <span>{{ category.name }}</span>
+                    <span class="category-shortcut-arrow" aria-hidden="true">→</span>
+                </a>
+            {% endfor %}
+        </div>
     </div>
 </section>
 
@@ -93,7 +105,7 @@
         <div class="features-grid">
 
             <div class="feature-card">
-                <div class="feature-icon">✓</div>
+                <div class="feature-icon" aria-hidden="true">{% category_icon "Pain Relief" %}</div>
                 <h3>Genuine Medicines</h3>
                 <p>
                     Medicines sourced only from licensed and verified
@@ -102,7 +114,7 @@
             </div>
 
             <div class="feature-card">
-                <div class="feature-icon">₵</div>
+                <div class="feature-icon" aria-hidden="true">{% category_icon "Wellness Products" %}</div>
                 <h3>Affordable Prices</h3>
                 <p>
                     Fair pricing with affordable generic alternatives
@@ -111,7 +123,7 @@
             </div>
 
             <div class="feature-card">
-                <div class="feature-icon">+</div>
+                <div class="feature-icon" aria-hidden="true">{% category_icon "Medical Devices" %}</div>
                 <h3>Qualified Professionals</h3>
                 <p>
                     Professional pharmacy and nursing support from
@@ -120,7 +132,7 @@
             </div>
 
             <div class="feature-card">
-                <div class="feature-icon">♥</div>
+                <div class="feature-icon" aria-hidden="true">{% category_icon "Customer support" %}</div>
                 <h3>Friendly Customer Care</h3>
                 <p>
                     Helpful service with communication in English
@@ -129,7 +141,7 @@
             </div>
 
             <div class="feature-card">
-                <div class="feature-icon">⚡</div>
+                <div class="feature-icon" aria-hidden="true">{% category_icon "Opening hours" %}</div>
                 <h3>Fast Dispensing</h3>
                 <p>
                     Efficient prescription processing so you can
@@ -138,7 +150,7 @@
             </div>
 
             <div class="feature-card">
-                <div class="feature-icon">⌂</div>
+                <div class="feature-icon" aria-hidden="true">{% category_icon "Delivery" %}</div>
                 <h3>Home Delivery</h3>
                 <p>
                     Convenient medicine delivery to customers within
@@ -170,7 +182,7 @@
         <div class="services-grid">
 
             <div class="service-card">
-                <div class="service-icon">+</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-stethoscope"></use></svg></div>
                 <h3>Consultation Services</h3>
                 <p>
                     Professional guidance for your everyday
@@ -179,7 +191,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">Rx</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-prescription"></use></svg></div>
                 <h3>Prescription Dispensing</h3>
                 <p>
                     Safe and accurate dispensing of prescribed
@@ -188,7 +200,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">↻</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-refresh"></use></svg></div>
                 <h3>Medication Refills</h3>
                 <p>
                     Convenient support for managing your regular
@@ -197,7 +209,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">OTC</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-pill"></use></svg></div>
                 <h3>Over-the-Counter Medicines</h3>
                 <p>
                     A range of commonly needed medicines and
@@ -206,7 +218,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">♥</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-stethoscope"></use></svg></div>
                 <h3>Blood Pressure Checks</h3>
                 <p>
                     Quick blood pressure screening and guidance
@@ -215,7 +227,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">◉</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-drop"></use></svg></div>
                 <h3>Blood Sugar Testing</h3>
                 <p>
                     Random blood sugar testing to help monitor
@@ -224,7 +236,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">✓</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-syringe"></use></svg></div>
                 <h3>Vaccination Services</h3>
                 <p>
                     Convenient vaccination services provided by
@@ -233,7 +245,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">+</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-wellness"></use></svg></div>
                 <h3>Family Planning</h3>
                 <p>
                     Confidential family planning information
@@ -242,7 +254,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">⌕</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-stethoscope"></use></svg></div>
                 <h3>HIV Testing</h3>
                 <p>
                     Confidential testing and appropriate
@@ -251,7 +263,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">♥</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-baby"></use></svg></div>
                 <h3>Pregnancy Testing</h3>
                 <p>
                     Private and convenient pregnancy testing
@@ -260,7 +272,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">⚕</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-first-aid"></use></svg></div>
                 <h3>First Aid Services</h3>
                 <p>
                     Basic first aid support for minor injuries
@@ -269,7 +281,7 @@
             </div>
 
             <div class="service-card">
-                <div class="service-icon">⌂</div>
+                <div class="service-icon" aria-hidden="true"><svg><use href="#icon-truck"></use></svg></div>
                 <h3>Home Delivery</h3>
                 <p>
                     Convenient delivery of medicines and
@@ -279,8 +291,14 @@
 
         </div>
 
+        <div class="services-action">
+            <a href="#contact" class="btn btn-primary">Ask about our services</a>
+        </div>
+
     </div>
-</section><section class="service-highlight">
+</section>
+
+<section class="service-highlight">
     <div class="container">
 
        <div class="highlight-intro">
@@ -366,32 +384,32 @@
                 <div class="health-check-list">
 
                     <div class="health-check-item">
-                        <span>✓</span>
+                        <span aria-hidden="true">{% category_icon "Blood pressure" %}</span>
                         <strong>Blood Pressure</strong>
                     </div>
 
                     <div class="health-check-item">
-                        <span>✓</span>
+                        <span aria-hidden="true">{% category_icon "Blood sugar" %}</span>
                         <strong>Blood Sugar</strong>
                     </div>
 
                     <div class="health-check-item">
-                        <span>✓</span>
+                        <span aria-hidden="true">{% category_icon "BMI" %}</span>
                         <strong>BMI</strong>
                     </div>
 
                     <div class="health-check-item">
-                        <span>✓</span>
+                        <span aria-hidden="true">{% category_icon "Weight monitoring" %}</span>
                         <strong>Weight Monitoring</strong>
                     </div>
 
                     <div class="health-check-item">
-                        <span>✓</span>
+                        <span aria-hidden="true">{% category_icon "Medication review" %}</span>
                         <strong>Medication Review</strong>
                     </div>
 
                     <div class="health-check-item">
-                        <span>✓</span>
+                        <span aria-hidden="true">{% category_icon "Vaccinations" %}</span>
                         <strong>Vaccinations</strong>
                     </div>
 
@@ -405,7 +423,7 @@
 
             <div class="health-checks-card">
 
-                <div class="health-card-icon">♥</div>
+                <div class="health-card-icon" aria-hidden="true">{% category_icon "Blood pressure monitoring" %}</div>
 
                 <h3>Regular Health Monitoring</h3>
 
@@ -444,7 +462,7 @@
         <div class="home-care-grid">
 
             <div class="home-care-card">
-                <div class="home-care-icon">+</div>
+                <div class="home-care-icon" aria-hidden="true"><svg><use href="#icon-pill"></use></svg></div>
                 <h3>Medication Administration</h3>
                 <p>
                     Support with safe and timely administration
@@ -453,7 +471,7 @@
             </div>
 
             <div class="home-care-card">
-                <div class="home-care-icon">♥</div>
+                <div class="home-care-icon" aria-hidden="true"><svg><use href="#icon-first-aid"></use></svg></div>
                 <h3>Wound Care</h3>
                 <p>
                     Professional support with wound care and
@@ -462,7 +480,7 @@
             </div>
 
             <div class="home-care-card">
-                <div class="home-care-icon">♥</div>
+                <div class="home-care-icon" aria-hidden="true"><svg><use href="#icon-wellness"></use></svg></div>
                 <h3>Palliative Care</h3>
                 <p>
                     Compassionate support focused on comfort,
@@ -471,7 +489,7 @@
             </div>
 
             <div class="home-care-card">
-                <div class="home-care-icon">⌂</div>
+                <div class="home-care-icon" aria-hidden="true"><svg><use href="#icon-home-care"></use></svg></div>
                 <h3>Elderly Care</h3>
                 <p>
                     Caring support for elderly family members
@@ -480,7 +498,7 @@
             </div>
 
             <div class="home-care-card">
-                <div class="home-care-icon">✓</div>
+                <div class="home-care-icon" aria-hidden="true"><svg><use href="#icon-prescription"></use></svg></div>
                 <h3>Post-Hospital Recovery</h3>
                 <p>
                     Continued care and support following
@@ -489,7 +507,7 @@
             </div>
 
             <div class="home-care-card">
-                <div class="home-care-icon">+</div>
+                <div class="home-care-icon" aria-hidden="true"><svg><use href="#icon-stethoscope"></use></svg></div>
                 <h3>Chronic Disease Management</h3>
                 <p>
                     Ongoing support for patients managing
@@ -498,7 +516,7 @@
             </div>
 
             <div class="home-care-card">
-                <div class="home-care-icon">♥</div>
+                <div class="home-care-icon" aria-hidden="true"><svg><use href="#icon-wellness"></use></svg></div>
                 <h3>Caregiver Support</h3>
                 <p>
                     Guidance and practical support for family
@@ -507,7 +525,7 @@
             </div>
 
             <div class="home-care-card">
-                <div class="home-care-icon">↗</div>
+                <div class="home-care-icon" aria-hidden="true"><svg><use href="#icon-home-care"></use></svg></div>
                 <h3>Physiotherapy Referrals</h3>
                 <p>
                     Assistance with referrals for appropriate
@@ -524,6 +542,8 @@
         </div>
 
     </div>
+</section>
+
 <section class="products" id="products">
     <div class="container">
 
@@ -541,11 +561,9 @@
             </p>
         </div>
 
-        <div class="mt-8 flex justify-center">
-            <a href="{% url 'products' %}"
-               class="inline-flex items-center rounded-xl bg-teal-700 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-teal-800">
-                View All Products
-                <span class="ml-2">→</span>
+        <div class="products-action">
+            <a href="{% url 'products' %}" class="btn btn-primary">
+                View all products
             </a>
         </div>
 
@@ -553,53 +571,7 @@
 
             {% for product in products %}
 
-            <div class="product-card">
-
-                <a href="{% url 'product_detail' product.id %}"
-                   class="product-card-main">
-
-                    {% if product.image %}
-                        <img src="{{ product.image.url }}"
-                             alt="{{ product.name }}"
-                             class="product-image">
-                    {% else %}
-                        <div class="product-icon">+</div>
-                    {% endif %}
-
-                    {% if product.category %}
-                        <span class="product-category">
-                            {{ product.category.name }}
-                        </span>
-                    {% endif %}
-
-                    <h3>{{ product.name }}</h3>
-
-                    <p>{{ product.description }}</p>
-
-                    <div class="product-price">
-                        KSh {{ product.price }}
-                    </div>
-
-                    {% if product.stock_quantity > 0 %}
-                        <span class="product-stock">
-                            In Stock
-                        </span>
-                    {% else %}
-                        <span class="product-stock out-of-stock">
-                            Out of Stock
-                        </span>
-                    {% endif %}
-
-                </a>
-
-                <a href="https://wa.me/254708282765?text=Hello%20Vikadia%20Pharmacy%2C%20I%20would%20like%20to%20order%20{{ product.name|urlencode }}.%20Price%3A%20KSh%20{{ product.price }}."
-                   class="product-order-btn"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Order on WhatsApp
-                </a>
-
-            </div>
+            {% include "components/product_card.html" with product=product %}
 
             {% empty %}
 
@@ -614,8 +586,7 @@
     </div>
 </section>
 
-</div>
-</section><section class="health-tips" id="health-tips">
+<section class="health-tips" id="health-tips">
     <div class="container">
 
         <div class="section-heading">
@@ -772,16 +743,15 @@
 
             <div class="contact-buttons">
 
-                <a href="tel:" class="btn btn-primary">
+                <a href="tel:+{% pharmacy_phone_number %}" class="btn btn-primary">
                     Call Us
                 </a>
 
-                <a href="https://wa.me/" class="btn btn-whatsapp">
+                <a href="{% pharmacy_whatsapp_url %}"
+                   class="btn btn-whatsapp"
+                   target="_blank"
+                   rel="noopener noreferrer">
                     WhatsApp Us
-                </a>
-
-                <a href="#contact-form" class="btn btn-outline">
-                    Send a Message
                 </a>
 
             </div>
@@ -791,29 +761,28 @@
         <div class="contact-info-grid">
 
             <div class="contact-info-card">
-                <div class="contact-info-icon">☎</div>
+                <div class="contact-info-icon" aria-hidden="true">{% category_icon "Telephone" %}</div>
                 <h3>Call Us</h3>
                 <p>
-                    Speak with our team for assistance and
-                    healthcare enquiries.
+                    <a href="tel:+{% pharmacy_phone_number %}">{% pharmacy_phone_display %}</a>
                 </p>
             </div>
 
             <div class="contact-info-card">
-                <div class="contact-info-icon">◉</div>
+                <div class="contact-info-icon" aria-hidden="true">{% category_icon "Customer support" %}</div>
                 <h3>WhatsApp</h3>
                 <p>
-                    Send us a message for convenient enquiries
-                    and service information.
+                    <a href="{% pharmacy_whatsapp_url %}"
+                       target="_blank"
+                       rel="noopener noreferrer">Message our team</a>
                 </p>
             </div>
 
             <div class="contact-info-card">
-                <div class="contact-info-icon">⌂</div>
+                <div class="contact-info-icon" aria-hidden="true">{% category_icon "Location" %}</div>
                 <h3>Visit Us</h3>
                 <p>
-                    Visit our pharmacy for medicines, health
-                    checks and healthcare support.
+                    Call or message us for directions and current opening hours.
                 </p>
             </div>
 

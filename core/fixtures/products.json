@@ -270,7 +270,7 @@
     "category": 1,
     "item_id": "",
     "name": "Paracetamol 500mg",
-    "description": "Pain and fever relief tablets.",
+    "description": "Paracetamol 500 mg tablets help relieve common pain, including headache and toothache, and reduce fever. Follow the pack or clinician directions. Do not take with other medicines that also contain paracetamol; taking too much can cause serious liver damage.",
     "price": "20.00",
     "buying_price": null,
     "stock_quantity": 100,
@@ -295,8 +295,8 @@
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Amoxyl_250_mg_caps.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.767Z"
   }
@@ -307,15 +307,15 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "Flucloxacylin syrup (floxapen)",
+    "name": "Flucloxacylin suspension (floxapen)",
     "description": "Floxapen contains flucloxacillin, a penicillin antibiotic used for susceptible bacterial infections, including infections caused by susceptible staphylococci. The strength and formulation should be confirmed from the pack. Use only as prescribed.",
     "price": "200.00",
     "buying_price": null,
     "stock_quantity": 3,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Flucloxacylin_syrup_floxapen.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.777Z"
   }
@@ -333,8 +333,8 @@
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Ampiclox_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.785Z"
   }
@@ -352,8 +352,8 @@
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefalexin_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.794Z"
   }
@@ -371,8 +371,8 @@
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefixime_syrup_60ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.803Z"
   }
@@ -383,7 +383,7 @@
   "fields": {
     "category": 10,
     "item_id": "",
-    "name": "hydrogen peroxide",
+    "name": "Hydrogen Peroxide  200mls",
     "description": "Hydrogen peroxide solution is an oxidising antiseptic/cleansing preparation intended for appropriate external use. Follow the product instructions and professional advice.",
     "price": "50.00",
     "buying_price": null,
@@ -391,7 +391,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/hydrogen_peroxide.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.819Z"
   }
@@ -410,7 +410,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Azithromycin_syrup_15ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.827Z"
   }
@@ -429,7 +429,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Seven_seas_cod_liver_oil_capsule.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.841Z"
   }
@@ -447,8 +447,8 @@
     "stock_quantity": 4,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Erythromycin_syrup_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.849Z"
   }
@@ -466,8 +466,8 @@
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefuroxime_250mg_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.858Z"
   }
@@ -478,15 +478,15 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "amoxyl 500mg caps",
-    "description": "Amoxyl contains amoxicillin, a penicillin-type antibiotic used to treat susceptible bacterial infections. It is available in different strengths and formulations, and the appropriate dose depends on the infection, age and patient factors. Use only when prescribed or recommended by a qualified healthcare professional and complete the course as directed.",
+    "name": "Amoxicillin5 00mg Capsules",
+    "description": "Amoxicillin, a penicillin-type antibiotic used to treat susceptible bacterial infections. It is available in different strengths and formulations, and the appropriate dose depends on the infection, age and patient factors. Use only when prescribed or recommended by a qualified healthcare professional and complete the course as directed.",
     "price": "5.00",
     "buying_price": null,
     "stock_quantity": 40,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/amoxyl_500mg_caps.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.867Z"
   }
@@ -504,8 +504,8 @@
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Amoxyl__syrup_100mls.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.876Z"
   }
@@ -523,8 +523,8 @@
     "stock_quantity": 50,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Amoxyl_dispersible_tablets__250_mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.886Z"
   }
@@ -543,7 +543,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Azithromycin_500mg_tablets.png",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.897Z"
   }
@@ -562,7 +562,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Azithromycin_250mg_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.907Z"
   }
@@ -577,11 +577,11 @@
     "description": "Cefixime is an oral cephalosporin antibiotic used for susceptible bacterial infections. Use the prescribed dose for the exact strength and formulation supplied.",
     "price": "300.00",
     "buying_price": null,
-    "stock_quantity": 1,
+    "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefixime_400mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.917Z"
   }
@@ -592,15 +592,15 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "levofloxacin tabs 500mg",
+    "name": "Levofloxacin tabs 500mg",
     "description": "Levofloxacin is a fluoroquinolone antibiotic used for selected bacterial infections. Because it has important precautions and interactions, it should be used only under appropriate medical supervision.",
     "price": "300.00",
     "buying_price": null,
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/levofloxacin_tabs_500mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.926Z"
   }
@@ -618,8 +618,8 @@
     "stock_quantity": 40,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Flucloxacillin_500_floxapen_capsules.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.934Z"
   }
@@ -637,8 +637,8 @@
     "stock_quantity": 60,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Flucloxacillin_250_floxapen_capsules.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.944Z"
   }
@@ -656,8 +656,8 @@
     "stock_quantity": 30,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Doxycycline.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.960Z"
   }
@@ -668,15 +668,15 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "Ciprofloxacin 500",
+    "name": "Ciprofloxacin 500mg",
     "description": "Ciprofloxacin is a fluoroquinolone antibiotic used for selected susceptible bacterial infections. Use only when clinically appropriate and according to the prescribed regimen.",
     "price": "10.00",
     "buying_price": null,
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Ciprofloxacin_500mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.971Z"
   }
@@ -687,7 +687,7 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "nitrofurantoin",
+    "name": "Nitrofurantoin 100mg",
     "description": "Nitrofurantoin is an antibacterial medicine commonly used for susceptible lower urinary-tract infections. Use according to the prescribed dose and product instructions.",
     "price": "10.00",
     "buying_price": null,
@@ -695,28 +695,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/nitrofurantoin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:40.979Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 24,
-  "fields": {
-    "category": 9,
-    "item_id": "",
-    "name": "flagyl metronidazole 400mg",
-    "description": "Metronidazole is an antimicrobial medicine used for susceptible anaerobic bacterial and certain protozoal infections. The correct dose and duration depend on the condition being treated.",
-    "price": "6.00",
-    "buying_price": null,
-    "stock_quantity": 100,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:40.989Z"
   }
 },
 {
@@ -725,7 +706,7 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "cetrizine (cetzan) 60mls",
+    "name": "Cetrizine 60mls",
     "description": "Cetirizine is an antihistamine used to relieve allergy symptoms such as sneezing, runny nose, itching and watery eyes. Some people may experience drowsiness.",
     "price": "50.00",
     "buying_price": null,
@@ -733,7 +714,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cetrizine_60mls.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.006Z"
   }
@@ -744,7 +725,7 @@
   "fields": {
     "category": 13,
     "item_id": "",
-    "name": "secnidazole 1g tablet",
+    "name": "Secnidazole 1g Tablet",
     "description": "Secnidazole is an antimicrobial medicine used for selected protozoal and anaerobic bacterial infections. Use only according to professional advice.",
     "price": "50.00",
     "buying_price": null,
@@ -752,7 +733,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/secnidazole_1g_tablet.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.019Z"
   }
@@ -763,7 +744,7 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "Tinidazole 500mg tabs",
+    "name": "Tinidazole 500mg tablets",
     "description": "Tinidazole is an antimicrobial medicine used for selected protozoal and anaerobic bacterial infections. Follow the prescribed regimen and product directions.",
     "price": "30.00",
     "buying_price": null,
@@ -771,7 +752,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Tinidazole_500mg_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.029Z"
   }
@@ -789,8 +770,8 @@
     "stock_quantity": 1,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Clotrimazole_pessaries.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.038Z"
   }
@@ -808,8 +789,8 @@
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Amoxiclav_228_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.046Z"
   }
@@ -820,15 +801,15 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "Cotrimoxaxole CTX  480mg  (septrin)",
-    "description": "Cotrimoxaxole CTX  480mg  (septrin) is an antibiotic medicine used to treat susceptible bacterial infections. The active ingredient, strength and duration of treatment depend on the exact product; use only according to a prescription or qualified healthcare advice.",
+    "name": "Co-trimoxazole  480mg  (septrin)",
+    "description": "Co-trimoxazole  480mg  480mg  (septrin) is an antibiotic medicine used to treat susceptible bacterial infections. The active ingredient, strength and duration of treatment depend on the exact product; use only according to a prescription or qualified healthcare advice.",
     "price": "10.00",
     "buying_price": null,
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cotrimoxaxole_CTX__480mg__septrin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.054Z"
   }
@@ -839,7 +820,7 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "Cotrimaxole syrup 50ml  (septrin)",
+    "name": "Co-trimoxazole suspension  (septrin)",
     "description": "Cotrimaxole syrup 50ml  (septrin) is an antibiotic medicine used to treat susceptible bacterial infections. The active ingredient, strength and duration of treatment depend on the exact product; use only according to a prescription or qualified healthcare advice.",
     "price": "100.00",
     "buying_price": null,
@@ -847,7 +828,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cotrimaxole_syrup_50ml__septrin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.062Z"
   }
@@ -856,9 +837,9 @@
   "model": "core.product",
   "pk": 32,
   "fields": {
-    "category": 9,
+    "category": 27,
     "item_id": "",
-    "name": "griseofulvin125",
+    "name": "Griseofulvin 125mg",
     "description": "Griseofulvin is an antifungal medicine used for certain dermatophyte infections of the skin, hair or nails. Use according to professional advice.",
     "price": "10.00",
     "buying_price": null,
@@ -866,7 +847,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/griseofulvin125.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.070Z"
   }
@@ -878,14 +859,14 @@
     "category": 9,
     "item_id": "",
     "name": "Ketoconazole  200mg tablets",
-    "description": "Ketoconazole is an antifungal medicine used for susceptible fungal infections. The route and formulation determine its appropriate use.",
+    "description": "Oral ketoconazole 200 mg tablets are a prescription medicine reserved for carefully selected indications; their uses and risks differ from ketoconazole cream. Serious liver injury and drug interactions are possible, so use only under specialist medical supervision and follow required monitoring.",
     "price": "10.00",
     "buying_price": null,
     "stock_quantity": 40,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Ketoconazole__200mg_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.078Z"
   }
@@ -904,7 +885,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ibugesic_100_ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.091Z"
   }
@@ -923,7 +904,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ibugesic_60ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.098Z"
   }
@@ -942,7 +923,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Calpol_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.105Z"
   }
@@ -961,7 +942,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Calpol_60_ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.112Z"
   }
@@ -980,7 +961,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Baby_mol_syrup_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.121Z"
   }
@@ -999,7 +980,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Brustan__syrup_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.128Z"
   }
@@ -1018,28 +999,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Paracetamol_syrup_100ml_betamol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.136Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 41,
-  "fields": {
-    "category": 14,
-    "item_id": "",
-    "name": "brufen syrup 60mls",
-    "description": "Brufen contains ibuprofen, a non-steroidal anti-inflammatory medicine used to relieve pain, reduce inflammation and lower fever. It is commonly used for conditions such as headache, dental pain, muscle or joint pain and menstrual pain. Strengths and formulations vary, so follow the directions on the specific pack or advice from a pharmacist.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.143Z"
   }
 },
 {
@@ -1048,7 +1010,7 @@
   "fields": {
     "category": 14,
     "item_id": "",
-    "name": "Fevapyn  100ml (brufen syrup)",
+    "name": "Fevapyn  100ml",
     "description": "Brufen contains ibuprofen, a non-steroidal anti-inflammatory medicine used to relieve pain, reduce inflammation and lower fever. It is commonly used for conditions such as headache, dental pain, muscle or joint pain and menstrual pain. Strengths and formulations vary, so follow the directions on the specific pack or advice from a pharmacist.",
     "price": "100.00",
     "buying_price": null,
@@ -1056,7 +1018,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Fevapyn__100ml_brufen_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.151Z"
   }
@@ -1075,7 +1037,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Metronidazole_flaggyl_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.164Z"
   }
@@ -1093,8 +1055,8 @@
     "stock_quantity": 1,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Eflaron_plus_syrup_100ml.png",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.171Z"
   }
@@ -1105,16 +1067,16 @@
   "fields": {
     "category": 13,
     "item_id": "",
-    "name": "Diracip syrup",
+    "name": "Diracip suspension",
     "description": "Diracip syrup is an antiprotozoal/anti-amoebic medicine used for susceptible protozoal infections. The appropriate dose and duration depend on the active ingredient and diagnosis.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "requires_prescription": true,
+    "image": "products/Diracip_syrup.png",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:41.180Z"
   }
 },
@@ -1131,8 +1093,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Enterozole.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.188Z"
   }
@@ -1150,29 +1112,10 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Enterogemina.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.196Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 48,
-  "fields": {
-    "category": 13,
-    "item_id": "",
-    "name": "Aminoxidine",
-    "description": "Aminoxidine is an antiprotozoal/anti-amoebic medicine used for susceptible protozoal infections. The appropriate dose and duration depend on the active ingredient and diagnosis.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.204Z"
   }
 },
 {
@@ -1181,7 +1124,7 @@
   "fields": {
     "category": 13,
     "item_id": "",
-    "name": "Secnidazole syrup (dysen 30ml )",
+    "name": "Secnidazole suspension",
     "description": "Secnidazole is an antimicrobial medicine used for selected protozoal and anaerobic bacterial infections. Use only according to professional advice.",
     "price": "200.00",
     "buying_price": null,
@@ -1189,28 +1132,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Secnidazole_syrup_dysen_30ml_.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.211Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 50,
-  "fields": {
-    "category": 13,
-    "item_id": "",
-    "name": "Flagyl d2",
-    "description": "Metronidazole is an antimicrobial medicine used for susceptible anaerobic bacterial and certain protozoal infections. The correct dose and duration depend on the condition being treated.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.219Z"
   }
 },
 {
@@ -1226,8 +1150,8 @@
     "stock_quantity": 90,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Flaggy_metronidazole_200mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.227Z"
   }
@@ -1245,8 +1169,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Neopeptode.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.234Z"
   }
@@ -1265,7 +1189,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/G_florax.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.241Z"
   }
@@ -1276,7 +1200,7 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Good morning",
+    "name": "Good morning lung tonic",
     "description": "Good morning is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "150.00",
     "buying_price": null,
@@ -1284,7 +1208,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Good_morning.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.258Z"
   }
@@ -1303,7 +1227,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cetrizine_syrup_piricet.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.267Z"
   }
@@ -1322,7 +1246,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Chest_cof_syrup_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.275Z"
   }
@@ -1333,15 +1257,15 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Thio carb 100ml",
-    "description": "Thio carb 100ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
+    "name": "Thiocarb 100ml",
+    "description": "Thiocarb 100ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "150.00",
     "buying_price": null,
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Thio_carb_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.283Z"
   }
@@ -1352,7 +1276,7 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Piriton chlopherinamine syrup (dawa)",
+    "name": "Piriton chlopherinamine syrup",
     "description": "Piriton contains chlorphenamine, an antihistamine used to relieve allergy symptoms such as sneezing, runny nose, itchy or watery eyes and itchy skin. It may cause drowsiness, so avoid driving or operating machinery if affected. Different Piriton products may have different formulations, so check the pack.",
     "price": "50.00",
     "buying_price": null,
@@ -1360,7 +1284,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Piriton_chlopherinamine_syrup_dawa.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.291Z"
   }
@@ -1379,7 +1303,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Imacof__expectorant_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.299Z"
   }
@@ -1398,7 +1322,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Tripozed.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.307Z"
   }
@@ -1417,7 +1341,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cetrihist__expectorant_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.316Z"
   }
@@ -1436,7 +1360,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cetriplus.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.325Z"
   }
@@ -1455,7 +1379,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Tridex__60ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.333Z"
   }
@@ -1474,7 +1398,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Alcof__100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.342Z"
   }
@@ -1493,7 +1417,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Lunahist_cough_syrup_100mls.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.350Z"
   }
@@ -1512,7 +1436,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Nicof_60mls.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.357Z"
   }
@@ -1523,7 +1447,7 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Trimex paed 100ml",
+    "name": "Trimex paediatric 100ml",
     "description": "Trimex paed 100ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "300.00",
     "buying_price": null,
@@ -1531,7 +1455,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Trimex_paed_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.365Z"
   }
@@ -1542,7 +1466,7 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Tricohist  small 60ml",
+    "name": "Tricohist 60ml",
     "description": "Tricohist  small 60ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "200.00",
     "buying_price": null,
@@ -1550,28 +1474,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Tricohist__small_60ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.374Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 69,
-  "fields": {
-    "category": 15,
-    "item_id": "",
-    "name": "Trio Hist",
-    "description": "Trio Hist is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.382Z"
   }
 },
 {
@@ -1588,7 +1493,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Bromsol_expectorant_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.390Z"
   }
@@ -1607,7 +1512,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Broxol_syrup_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.399Z"
   }
@@ -1618,7 +1523,7 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Cophy drex exopectorant 100ml",
+    "name": "Cophydrex exopectorant 100ml",
     "description": "Cophy drex exopectorant 100ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "150.00",
     "buying_price": null,
@@ -1626,7 +1531,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cophy_drex_exopectorant_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.408Z"
   }
@@ -1637,15 +1542,15 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Koff gone  cough syrup 60ml",
-    "description": "Koff gone  cough syrup 60ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
+    "name": "Kofgone  cough syrup 60ml",
+    "description": "Kofgone  cough syrup 60ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "50.00",
     "buying_price": null,
     "stock_quantity": 3,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Koff_gone__cough_syrup_60ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.417Z"
   }
@@ -1664,7 +1569,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Dacold_susp_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.427Z"
   }
@@ -1683,7 +1588,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Dacof.png",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.435Z"
   }
@@ -1702,7 +1607,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Tricof.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.445Z"
   }
@@ -1721,7 +1626,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ascoril_expectorant_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.452Z"
   }
@@ -1740,7 +1645,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Promethazine_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.462Z"
   }
@@ -1759,7 +1664,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Brozelin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.471Z"
   }
@@ -1778,7 +1683,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Zefcoin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.479Z"
   }
@@ -1789,7 +1694,7 @@
   "fields": {
     "category": 16,
     "item_id": "",
-    "name": "relcer gel  100mls small",
+    "name": "Relcer Gel  100mls",
     "description": "Relcer is an antacid product used to relieve heartburn, indigestion and symptoms associated with excess stomach acid. Formulations vary, so check the ingredients and directions on the pack.",
     "price": "500.00",
     "buying_price": null,
@@ -1797,7 +1702,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/relcer_gel__100mls_small.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.494Z"
   }
@@ -1808,7 +1713,7 @@
   "fields": {
     "category": 16,
     "item_id": "",
-    "name": "relcer gell 180ml",
+    "name": "Relcer Gell 180mls",
     "description": "Relcer is an antacid product used to relieve heartburn, indigestion and symptoms associated with excess stomach acid. Formulations vary, so check the ingredients and directions on the pack.",
     "price": "550.00",
     "buying_price": null,
@@ -1816,7 +1721,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/relcer_gell_180ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.503Z"
   }
@@ -1834,8 +1739,8 @@
     "stock_quantity": 3,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Buscopan_hyoscine__syrup_60_mls.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.531Z"
   }
@@ -1854,28 +1759,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Gastrogel__gel_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.540Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 85,
-  "fields": {
-    "category": 16,
-    "item_id": "",
-    "name": "Onecid",
-    "description": "Onecid is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
-    "price": "100.00",
-    "buying_price": null,
-    "stock_quantity": 3,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.549Z"
   }
 },
 {
@@ -1884,15 +1770,15 @@
   "fields": {
     "category": 16,
     "item_id": "",
-    "name": "tryactin antacid",
-    "description": "tryactin antacid is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
+    "name": "Tryactin Antacid",
+    "description": "Tryactin antacid is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
     "price": "100.00",
     "buying_price": null,
     "stock_quantity": 1,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/tryactin_antacid.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.557Z"
   }
@@ -1903,15 +1789,15 @@
   "fields": {
     "category": 16,
     "item_id": "",
-    "name": "Nill acid",
-    "description": "Nill acid is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
+    "name": "Nillacid",
+    "description": "Nillacid is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
     "price": "250.00",
     "buying_price": null,
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Nill_acid.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.565Z"
   }
@@ -1930,7 +1816,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Sungel.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.574Z"
   }
@@ -1941,7 +1827,7 @@
   "fields": {
     "category": 16,
     "item_id": "",
-    "name": "Ulgicid  pinapples 200ml",
+    "name": "Ulgicid  pinapple 200ml",
     "description": "Ulgicid  pinapples 200ml is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
     "price": "500.00",
     "buying_price": null,
@@ -1949,28 +1835,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ulgicid__pinapples_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.582Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 90,
-  "fields": {
-    "category": 16,
-    "item_id": "",
-    "name": "Trugel",
-    "description": "Trugel is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.593Z"
   }
 },
 {
@@ -1987,7 +1854,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Flatameal_syrup_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.603Z"
   }
@@ -1998,36 +1865,17 @@
   "fields": {
     "category": 16,
     "item_id": "",
-    "name": "Catoximag",
-    "description": "Catoximag is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
+    "name": "Catoximag N",
+    "description": "Catoximag N is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Catoximag_N.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.612Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 93,
-  "fields": {
-    "category": 16,
-    "item_id": "",
-    "name": "Benagas",
-    "description": "Benagas is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.621Z"
   }
 },
 {
@@ -2044,28 +1892,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Gaviscon.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.631Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 95,
-  "fields": {
-    "category": 16,
-    "item_id": "",
-    "name": "Sculaphet gel",
-    "description": "Sculaphet gel is an antacid or acid-relief product used to relieve heartburn, indigestion or symptoms associated with excess stomach acid. Ingredients and directions vary by formulation.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.639Z"
   }
 },
 {
@@ -2082,7 +1911,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Stopacid.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.648Z"
   }
@@ -2093,15 +1922,15 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Cypon plus syrup",
-    "description": "Cypon plus syrup is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
+    "name": "Cypon syrup",
+    "description": "Cypon  syrup is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
     "price": "450.00",
     "buying_price": null,
     "stock_quantity": 1,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cypon_plus_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.659Z"
   }
@@ -2112,7 +1941,7 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Seven seas cod liver oil syrup",
+    "name": "Seven seas cod liver oil 100ml",
     "description": "Cod-liver-oil supplements provide nutritional oils and, depending on the formulation, vitamins such as A and D. Check the exact product label for ingredients, age suitability and recommended daily intake.",
     "price": "1050.00",
     "buying_price": null,
@@ -2120,7 +1949,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Seven_seas_cod_liver_oil_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.667Z"
   }
@@ -2139,28 +1968,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Scotts.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.676Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 100,
-  "fields": {
-    "category": 11,
-    "item_id": "",
-    "name": "Gypon",
-    "description": "Gypon is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.685Z"
   }
 },
 {
@@ -2169,15 +1979,15 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Cypomaltin",
-    "description": "Cypomaltin is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
+    "name": "CYPOMULTI SYRUP 200ml",
+    "description": "CYPOMULTI SYRUP 200ml is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cypomulty.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.699Z"
   }
@@ -2188,7 +1998,7 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "ashtone",
+    "name": "Ashtone",
     "description": "ashtone is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
     "price": "0.00",
     "buying_price": null,
@@ -2196,47 +2006,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ashtone_pBIs1fR.webp",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.710Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 103,
-  "fields": {
-    "category": 11,
-    "item_id": "",
-    "name": "Vastameal",
-    "description": "Vastameal is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.720Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 104,
-  "fields": {
-    "category": 11,
-    "item_id": "",
-    "name": "Uplift c",
-    "description": "Uplift c is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.728Z"
   }
 },
 {
@@ -2245,7 +2017,7 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "cypro b plus syrup 200mls",
+    "name": "Cypro B plus syrup 200mls",
     "description": "Multivitamin/nutritional supplement provides a combination of vitamins and, in some formulations, minerals or other nutrients. Use according to the product label and do not exceed the recommended daily intake.",
     "price": "450.00",
     "buying_price": null,
@@ -2253,7 +2025,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/cypro_b_plus_syrup_200mls.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.736Z"
   }
@@ -2264,7 +2036,7 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "axe brand (chapa shoka liquid)",
+    "name": "Axe Brand universal oil (chapa shoka liquid)",
     "description": "axe brand (chapa shoka liquid) is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
     "price": "200.00",
     "buying_price": null,
@@ -2272,7 +2044,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/axe_brand.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.745Z"
   }
@@ -2291,7 +2063,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Multivitamin__syrup_100ml_euvitan.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.753Z"
   }
@@ -2310,7 +2082,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Bonnisan.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.763Z"
   }
@@ -2336,30 +2108,11 @@
 },
 {
   "model": "core.product",
-  "pk": 110,
-  "fields": {
-    "category": 11,
-    "item_id": "",
-    "name": "Coliza",
-    "description": "Coliza is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.778Z"
-  }
-},
-{
-  "model": "core.product",
   "pk": 111,
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Lactulose lactulac solution 100ml",
+    "name": "Lactulac solution 100ml",
     "description": "Lactulose is an osmotic laxative used to soften stools and relieve constipation. It may also be prescribed for specific liver-related conditions; use according to professional advice.",
     "price": "500.00",
     "buying_price": null,
@@ -2367,7 +2120,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Lactulose_lactulac_solution_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.787Z"
   }
@@ -2378,7 +2131,7 @@
   "fields": {
     "category": 17,
     "item_id": "",
-    "name": "peardine Mouth wash",
+    "name": "Peardine Mouth wash",
     "description": "Mouthwash/oral-rinse product intended to support oral hygiene and cleansing. Follow the product directions and do not swallow unless the formulation specifically permits it.",
     "price": "150.00",
     "buying_price": null,
@@ -2386,7 +2139,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/peardine_Mouth_wash.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.799Z"
   }
@@ -2397,15 +2150,15 @@
   "fields": {
     "category": 18,
     "item_id": "",
-    "name": "Ferrose",
+    "name": "Ferrous Sulphate 200mg Tablets",
     "description": "Iron-containing haematinic products are used to prevent or treat iron deficiency and support haemoglobin production. The exact iron salt and additional vitamins vary by formulation; check the pack for composition and directions.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Ferrose.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.814Z"
   }
@@ -2424,7 +2177,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ranferon_syrup_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.822Z"
   }
@@ -2435,7 +2188,7 @@
   "fields": {
     "category": 19,
     "item_id": "",
-    "name": "Saline drops (nasal drops)",
+    "name": "Saline nasal drops",
     "description": "Sodium chloride saline solution is used for appropriate fluid replacement, cleansing or irrigation depending on the formulation. Confirm the concentration and intended route before use.",
     "price": "50.00",
     "buying_price": null,
@@ -2443,7 +2196,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Saline_drops_nasal_drops.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.834Z"
   }
@@ -2454,15 +2207,15 @@
   "fields": {
     "category": 19,
     "item_id": "",
-    "name": "Efedrin ear drops",
-    "description": "Efedrin ear drops is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
+    "name": "Ephedrine adult nasal drops",
+    "description": "Ephedrine adult nasal drops is a  preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Efedrin_ear_drops.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.842Z"
   }
@@ -2473,7 +2226,7 @@
   "fields": {
     "category": 20,
     "item_id": "",
-    "name": "normal saline 500ml (NS)",
+    "name": "Normal Saline  Infusion  (NS)",
     "description": "Sodium chloride saline solution is used for appropriate fluid replacement, cleansing or irrigation depending on the formulation. Confirm the concentration and intended route before use.",
     "price": "150.00",
     "buying_price": null,
@@ -2481,7 +2234,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/normal_saline_500ml_NS.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.854Z"
   }
@@ -2500,7 +2253,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Gentamycin_eye_drops.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.862Z"
   }
@@ -2518,8 +2271,8 @@
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Ciprofloxacin_ear_drops.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.871Z"
   }
@@ -2538,7 +2291,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Probeta_N_eye_drops.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.879Z"
   }
@@ -2550,35 +2303,16 @@
     "category": 9,
     "item_id": "",
     "name": "Nystatin oral drops",
-    "description": "Nystatin is an antifungal medicine used for susceptible Candida infections. The appropriate dose and route depend on the formulation.",
+    "description": "Nystatin oral liquid is an antifungal used to treat yeast infections in the mouth, such as oral thrush. Shake and measure it as directed on the label or prescription, and complete the prescribed course.",
     "price": "150.00",
     "buying_price": null,
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Nystatin_oral_drops.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.887Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 122,
-  "fields": {
-    "category": 19,
-    "item_id": "",
-    "name": "genta glax",
-    "description": "genta glax is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.895Z"
   }
 },
 {
@@ -2587,15 +2321,15 @@
   "fields": {
     "category": 19,
     "item_id": "",
-    "name": "dexneo (dexomet N eye drops)",
-    "description": "dexneo (dexomet N eye drops) is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
+    "name": "Dexneo (Dexomet N eye drops)",
+    "description": "Dexneo (dexomet N eye drops) is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
     "price": "150.00",
     "buying_price": null,
     "stock_quantity": 1,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/dexneo_dexomet_N_eye_drops.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.902Z"
   }
@@ -2606,7 +2340,7 @@
   "fields": {
     "category": 19,
     "item_id": "",
-    "name": "maxol",
+    "name": "Maxitrol Eye Drops",
     "description": "maxol is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
     "price": "0.00",
     "buying_price": null,
@@ -2614,7 +2348,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/maxol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.911Z"
   }
@@ -2625,7 +2359,7 @@
   "fields": {
     "category": 19,
     "item_id": "",
-    "name": "occulast",
+    "name": "Occulast Eye Drops",
     "description": "occulast is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
     "price": "0.00",
     "buying_price": null,
@@ -2633,7 +2367,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/occulast_is_an_eye.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.918Z"
   }
@@ -2642,38 +2376,19 @@
   "model": "core.product",
   "pk": 126,
   "fields": {
-    "category": 19,
+    "category": 27,
     "item_id": "",
-    "name": "grabacin powder",
-    "description": "grabacin powder is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
+    "name": "Grabacin powder",
+    "description": "Grabacin Powder is a topical antibiotic dusting powder used to treat and help prevent minor bacterial skin infections. It contains neomycin, bacitracin and polymyxin. Antibiotics that stop the growth of bacteria, and is useful for infected cuts, grazes, minor wounds and areas prone to bacterial infection. The powder form helps keep the area dry while delivering antibiotic action, which can be especially useful for skin folds and moist areas. Grabacin Powder is a practical first-aid product for managing minor skin infections in adults and children as advised.",
+    "price": "200.00",
+    "buying_price": "130.00",
+    "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/grabacin_powder.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.926Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 127,
-  "fields": {
-    "category": 19,
-    "item_id": "",
-    "name": "intamine",
-    "description": "intamine is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.942Z"
   }
 },
 {
@@ -2682,7 +2397,7 @@
   "fields": {
     "category": 20,
     "item_id": "",
-    "name": "dextrose 50% 50ml (D50)",
+    "name": "Dextrose 50% 50ml (D50)",
     "description": "Dextrose intravenous solution provides glucose and is used in selected clinical situations requiring glucose replacement. Concentration, route and administration require professional supervision.",
     "price": "0.00",
     "buying_price": null,
@@ -2690,7 +2405,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/dextrose_50_50ml_D50.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.951Z"
   }
@@ -2701,7 +2416,7 @@
   "fields": {
     "category": 20,
     "item_id": "",
-    "name": "dextrose 10% 500ml ( D10)",
+    "name": "Dextrose 10% 500ml ( D10)",
     "description": "Dextrose intravenous solution provides glucose and is used in selected clinical situations requiring glucose replacement. Concentration, route and administration require professional supervision.",
     "price": "150.00",
     "buying_price": null,
@@ -2709,7 +2424,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/dextrose_10_500ml__D10.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.959Z"
   }
@@ -2720,7 +2435,7 @@
   "fields": {
     "category": 20,
     "item_id": "",
-    "name": "dextrose 5% 500ml (D5)",
+    "name": "Dextrose 5% 500ml (D5)",
     "description": "Dextrose intravenous solution provides glucose and is used in selected clinical situations requiring glucose replacement. Concentration, route and administration require professional supervision.",
     "price": "150.00",
     "buying_price": null,
@@ -2728,47 +2443,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/dextrose_5_500ml__D10.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:41.969Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 131,
-  "fields": {
-    "category": 9,
-    "item_id": "",
-    "name": "Cotrimoxaxole CTX   syrup (septrin)",
-    "description": "Cotrimoxaxole CTX   syrup (septrin) is an antibiotic medicine used to treat susceptible bacterial infections. The active ingredient, strength and duration of treatment depend on the exact product; use only according to a prescription or qualified healthcare advice.",
-    "price": "50.00",
-    "buying_price": null,
-    "stock_quantity": 2,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.978Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 132,
-  "fields": {
-    "category": 20,
-    "item_id": "",
-    "name": "Rl",
-    "description": "Ringer's lactate is an intravenous fluid used for fluid and electrolyte replacement in appropriate clinical settings. Administration should be supervised by trained healthcare personnel.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:41.986Z"
   }
 },
 {
@@ -2784,8 +2461,8 @@
     "stock_quantity": 28,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Varinil_amlodipine_10mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.000Z"
   }
@@ -2803,8 +2480,8 @@
     "stock_quantity": 20,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Nifedipine.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.008Z"
   }
@@ -2815,15 +2492,15 @@
   "fields": {
     "category": 21,
     "item_id": "",
-    "name": "Preasartan h",
+    "name": "Presartan H",
     "description": "Preasartan h is an antihypertensive medicine used to help control high blood pressure or another cardiovascular condition covered by its active ingredient. Take only according to the prescribed regimen.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Preasartan_h.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.016Z"
   }
@@ -2834,15 +2511,15 @@
   "fields": {
     "category": 21,
     "item_id": "",
-    "name": "Losartan h carditan H",
+    "name": "Carditan H",
     "description": "Losartan is an angiotensin II receptor blocker used to treat high blood pressure and selected cardiovascular conditions. Use regularly according to the prescribed regimen.",
     "price": "12.00",
     "buying_price": null,
     "stock_quantity": 28,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Losartan_h_carditan_H.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.023Z"
   }
@@ -2853,15 +2530,15 @@
   "fields": {
     "category": 21,
     "item_id": "",
-    "name": "Carditan losartan plain",
+    "name": "Carditan losartan",
     "description": "Losartan is an angiotensin II receptor blocker used to treat high blood pressure and selected cardiovascular conditions. Use regularly according to the prescribed regimen.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Carditan_losartan.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.030Z"
   }
@@ -2879,8 +2556,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cavedilol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.036Z"
   }
@@ -2891,15 +2568,15 @@
   "fields": {
     "category": 21,
     "item_id": "",
-    "name": "Aldomet",
+    "name": "Aldomet (Methyldopa)",
     "description": "Methyldopa is an antihypertensive medicine used to lower blood pressure in selected patients. Use only as prescribed.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Aldomet_Methyldopa.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.042Z"
   }
@@ -2918,7 +2595,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ascard_75mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.049Z"
   }
@@ -2936,8 +2613,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Atenelol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.056Z"
   }
@@ -2955,8 +2632,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Ferusemide_INJE.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.062Z"
   }
@@ -2967,15 +2644,15 @@
   "fields": {
     "category": 21,
     "item_id": "",
-    "name": "Hctz 25 and 50",
+    "name": "Hctz",
     "description": "Hydrochlorothiazide is a thiazide diuretic used for high blood pressure and fluid retention. Use according to the prescribed regimen.",
     "price": "5.00",
     "buying_price": null,
     "stock_quantity": 20,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Hctz_25_and_50.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.070Z"
   }
@@ -2993,8 +2670,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Spironolactone.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.077Z"
   }
@@ -3012,8 +2689,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Atovastatin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.084Z"
   }
@@ -3031,8 +2708,8 @@
     "stock_quantity": 28,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Glucomet_500.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.096Z"
   }
@@ -3050,8 +2727,8 @@
     "stock_quantity": 25,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Glucomet_850.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.103Z"
   }
@@ -3069,8 +2746,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Glucomet_1000.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.111Z"
   }
@@ -3088,8 +2765,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Glucophage_500.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.118Z"
   }
@@ -3107,8 +2784,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Glucophage_1000.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.125Z"
   }
@@ -3126,8 +2803,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Glucophage_850.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.133Z"
   }
@@ -3138,36 +2815,17 @@
   "fields": {
     "category": 22,
     "item_id": "",
-    "name": "Glibeclamide",
+    "name": "Glibeclamide (Nogluc)",
     "description": "Glibeclamide is an antidiabetic medicine used to help control blood glucose. The active ingredient and dosing regimen depend on the exact product and should be followed as prescribed.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Glibeclamide.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.141Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 153,
-  "fields": {
-    "category": 22,
-    "item_id": "",
-    "name": "Nogluc",
-    "description": "Nogluc is an antidiabetic medicine used to help control blood glucose. The active ingredient and dosing regimen depend on the exact product and should be followed as prescribed.",
-    "price": "7.00",
-    "buying_price": null,
-    "stock_quantity": 28,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.147Z"
   }
 },
 {
@@ -3184,7 +2842,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Panadol_extra.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.159Z"
   }
@@ -3203,7 +2861,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Panadol_Advance.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.166Z"
   }
@@ -3214,15 +2872,15 @@
   "fields": {
     "category": 23,
     "item_id": "",
-    "name": "mara Moja tabs",
-    "description": "mara Moja tabs is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
+    "name": "Mara Moja Tablets",
+    "description": "Mara Moja tabs is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
     "price": "10.00",
     "buying_price": null,
     "stock_quantity": 50,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/mara_Moja_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.173Z"
   }
@@ -3241,7 +2899,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Action.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.180Z"
   }
@@ -3252,15 +2910,15 @@
   "fields": {
     "category": 23,
     "item_id": "",
-    "name": "apc tablets",
-    "description": "apc tablets is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
+    "name": "APC tablets",
+    "description": "APC tablets is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
     "price": "5.00",
     "buying_price": null,
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/apc_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.188Z"
   }
@@ -3271,15 +2929,15 @@
   "fields": {
     "category": 23,
     "item_id": "",
-    "name": "Kaluma strom tabs",
+    "name": "Kaluma strong tabs",
     "description": "Kaluma strom tabs is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
-    "price": "5.00",
+    "price": "10.00",
     "buying_price": null,
     "stock_quantity": 22,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Kaluma_strom_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.195Z"
   }
@@ -3298,7 +2956,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Diclomol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.203Z"
   }
@@ -3309,7 +2967,7 @@
   "fields": {
     "category": 23,
     "item_id": "",
-    "name": "Diclofenac tablets",
+    "name": "Diclofenac",
     "description": "Diclofenac is an NSAID used to relieve pain and inflammation. Different formulations have different directions and precautions; use according to professional advice.",
     "price": "5.00",
     "buying_price": null,
@@ -3317,7 +2975,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Diclofenac_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.209Z"
   }
@@ -3336,28 +2994,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Piroxicam.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.215Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 163,
-  "fields": {
-    "category": 23,
-    "item_id": "",
-    "name": "Pcm tablets",
-    "description": "Pcm tablets is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.223Z"
   }
 },
 {
@@ -3374,7 +3013,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Brufen_200mg_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.230Z"
   }
@@ -3393,7 +3032,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Meloxicam_7.5mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.236Z"
   }
@@ -3412,7 +3051,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Mefenamic_acid.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.244Z"
   }
@@ -3431,7 +3070,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ibucarb.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.250Z"
   }
@@ -3450,7 +3089,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Lobak.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.257Z"
   }
@@ -3461,7 +3100,7 @@
   "fields": {
     "category": 23,
     "item_id": "",
-    "name": "indocine",
+    "name": "Indomethacin  25mg Capsules",
     "description": "indocine is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
     "price": "0.00",
     "buying_price": null,
@@ -3469,7 +3108,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/indocine.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.265Z"
   }
@@ -3488,7 +3127,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Pregarbalin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.272Z"
   }
@@ -3499,15 +3138,15 @@
   "fields": {
     "category": 23,
     "item_id": "",
-    "name": "Carbapentin",
-    "description": "Carbapentin is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
+    "name": "Gabapentin 300mg",
+    "description": "Gabapentin 300mg is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/gabapentin_300mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.280Z"
   }
@@ -3522,11 +3161,11 @@
     "description": "Siclofen Mr is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
     "price": "15.00",
     "buying_price": null,
-    "stock_quantity": 10,
+    "stock_quantity": 15,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Siclofen_Mr.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.287Z"
   }
@@ -3545,7 +3184,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Dolact_Mr.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.303Z"
   }
@@ -3564,7 +3203,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Track_Mr.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.311Z"
   }
@@ -3583,7 +3222,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Acetal_Mr.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.319Z"
   }
@@ -3602,7 +3241,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Zulu_Mr.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.327Z"
   }
@@ -3621,7 +3260,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Myospaz_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.335Z"
   }
@@ -3640,7 +3279,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Zulu.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.341Z"
   }
@@ -3651,7 +3290,7 @@
   "fields": {
     "category": 23,
     "item_id": "",
-    "name": "Relief mr",
+    "name": "Rilif mr",
     "description": "Relief mr is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
     "price": "0.00",
     "buying_price": null,
@@ -3659,28 +3298,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Relief_mr.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.348Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 180,
-  "fields": {
-    "category": 23,
-    "item_id": "",
-    "name": "Zytol Mr",
-    "description": "Zytol Mr is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.355Z"
   }
 },
 {
@@ -3689,15 +3309,15 @@
   "fields": {
     "category": 24,
     "item_id": "",
-    "name": "Tramadol",
+    "name": "Tramadol injection",
     "description": "Tramadol is an opioid analgesic used for moderate to severe pain. It can cause drowsiness and dependence and should be used only as prescribed.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Tramadol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.366Z"
   }
@@ -3708,15 +3328,15 @@
   "fields": {
     "category": 24,
     "item_id": "",
-    "name": "Diclofenac Inj",
+    "name": "Diclofenac Injection",
     "description": "Diclofenac is an NSAID used to relieve pain and inflammation. Different formulations have different directions and precautions; use according to professional advice.",
     "price": "50.00",
     "buying_price": null,
     "stock_quantity": 9,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Diclofenac_injection.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.373Z"
   }
@@ -3734,29 +3354,10 @@
     "stock_quantity": 9,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Buscopan_Injection.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.379Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 184,
-  "fields": {
-    "category": 24,
-    "item_id": "",
-    "name": "Ketase",
-    "description": "Ketase is an injectable medicine intended for use in appropriate clinical settings. The exact indication, concentration, route and dose depend on the formulation and should be confirmed by a trained healthcare professional.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.387Z"
   }
 },
 {
@@ -3773,7 +3374,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Meloxicam_15_mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.394Z"
   }
@@ -3784,7 +3385,7 @@
   "fields": {
     "category": 24,
     "item_id": "",
-    "name": "Gacet 125 and 250",
+    "name": "Gacet",
     "description": "Gacet 125 and 250 is an injectable medicine intended for use in appropriate clinical settings. The exact indication, concentration, route and dose depend on the formulation and should be confirmed by a trained healthcare professional.",
     "price": "0.00",
     "buying_price": null,
@@ -3792,7 +3393,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Gacet_125_and_250.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.401Z"
   }
@@ -3830,7 +3431,7 @@
     "min_stock_level": 5,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "products/Tanzol_SUSPENSION.jpg",
+    "image": "products/ABZ.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.421Z"
   }
@@ -3849,7 +3450,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Natoa_Mebendazole_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.428Z"
   }
@@ -3868,7 +3469,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Loperamide.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.438Z"
   }
@@ -3887,7 +3488,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Allugel_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.452Z"
   }
@@ -3899,14 +3500,14 @@
     "category": 19,
     "item_id": "",
     "name": "Ottorex",
-    "description": "Ottorex is an eye or ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
-    "price": "0.00",
+    "description": "Ottorex is an ear preparation intended for the indication stated on the product label. Use the correct route and avoid contaminating the applicator.",
+    "price": "405.00",
     "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
+    "stock_quantity": 1,
+    "min_stock_level": 1,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ottorex.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.462Z"
   }
@@ -3917,15 +3518,15 @@
   "fields": {
     "category": 25,
     "item_id": "",
-    "name": "Eflaron plus (tablet)",
+    "name": "Eflaron plus",
     "description": "Eflaron plus (tablet) is a gastrointestinal or antiparasitic medicine used for the indication stated on its packaging. Confirm the active ingredient and strength and use according to the product instructions or professional advice.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Eflaron_plus_tablet.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.471Z"
   }
@@ -3936,55 +3537,17 @@
   "fields": {
     "category": 25,
     "item_id": "",
-    "name": "Itamaxin",
+    "name": "Entemaxin",
     "description": "Itamaxin is a gastrointestinal or antiparasitic medicine used for the indication stated on its packaging. Confirm the active ingredient and strength and use according to the product instructions or professional advice.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Itamaxin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.478Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 195,
-  "fields": {
-    "category": 25,
-    "item_id": "",
-    "name": "Duracid",
-    "description": "Duracid is a gastrointestinal or antiparasitic medicine used for the indication stated on its packaging. Confirm the active ingredient and strength and use according to the product instructions or professional advice.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.484Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 196,
-  "fields": {
-    "category": 25,
-    "item_id": "",
-    "name": "Aminocylin",
-    "description": "Aminocylin is a gastrointestinal or antiparasitic medicine used for the indication stated on its packaging. Confirm the active ingredient and strength and use according to the product instructions or professional advice.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.492Z"
   }
 },
 {
@@ -4000,8 +3563,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Bisacodyl.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.498Z"
   }
@@ -4012,7 +3575,7 @@
   "fields": {
     "category": 25,
     "item_id": "",
-    "name": "Zinc",
+    "name": "Zinc Sulphate",
     "description": "Zinc is a gastrointestinal or antiparasitic medicine used for the indication stated on its packaging. Confirm the active ingredient and strength and use according to the product instructions or professional advice.",
     "price": "0.00",
     "buying_price": null,
@@ -4020,28 +3583,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Zinc.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.505Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 199,
-  "fields": {
-    "category": 25,
-    "item_id": "",
-    "name": "Metronidazole syrup 100ml (triconazole)",
-    "description": "Metronidazole is an antimicrobial medicine used for susceptible anaerobic bacterial and certain protozoal infections. The correct dose and duration depend on the condition being treated.",
-    "price": "100.00",
-    "buying_price": null,
-    "stock_quantity": 5,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.512Z"
   }
 },
 {
@@ -4058,7 +3602,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/ORS_satchets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.520Z"
   }
@@ -4069,7 +3613,7 @@
   "fields": {
     "category": 25,
     "item_id": "",
-    "name": "Eno tabs",
+    "name": "Eno tablets",
     "description": "Eno tabs is a gastrointestinal or antiparasitic medicine used for the indication stated on its packaging. Confirm the active ingredient and strength and use according to the product instructions or professional advice.",
     "price": "20.00",
     "buying_price": null,
@@ -4077,7 +3621,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Eno_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.527Z"
   }
@@ -4088,7 +3632,7 @@
   "fields": {
     "category": 25,
     "item_id": "",
-    "name": "Nutricid tabs",
+    "name": "Neutricid tablets",
     "description": "Nutricid tabs is a gastrointestinal or antiparasitic medicine used for the indication stated on its packaging. Confirm the active ingredient and strength and use according to the product instructions or professional advice.",
     "price": "0.00",
     "buying_price": null,
@@ -4096,7 +3640,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Nutricid_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.534Z"
   }
@@ -4107,7 +3651,7 @@
   "fields": {
     "category": 25,
     "item_id": "",
-    "name": "Eno powder",
+    "name": "Eno",
     "description": "Eno powder is a gastrointestinal or antiparasitic medicine used for the indication stated on its packaging. Confirm the active ingredient and strength and use according to the product instructions or professional advice.",
     "price": "25.00",
     "buying_price": null,
@@ -4115,7 +3659,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Eno.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.541Z"
   }
@@ -4126,7 +3670,7 @@
   "fields": {
     "category": 25,
     "item_id": "",
-    "name": "Omeprazole 20mg tabs",
+    "name": "Omeprazole 20mg",
     "description": "Omeprazole is a proton-pump inhibitor that reduces stomach-acid production and is used for acid-related gastrointestinal conditions such as reflux and ulcers. Use according to the prescribed regimen.",
     "price": "5.00",
     "buying_price": null,
@@ -4134,7 +3678,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Omeprazole_20mg_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.547Z"
   }
@@ -4153,7 +3697,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Esomeprazole_20mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.553Z"
   }
@@ -4171,9 +3715,9 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "requires_prescription": true,
+    "image": "products/Pentoplazole.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:42.560Z"
   }
 },
@@ -4191,7 +3735,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Glycezine_suppository.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.566Z"
   }
@@ -4210,7 +3754,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Soda_mint.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.573Z"
   }
@@ -4229,7 +3773,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Esomeprazole_40mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.580Z"
   }
@@ -4248,7 +3792,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Annusol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.587Z"
   }
@@ -4267,7 +3811,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ashtone.webp",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.594Z"
   }
@@ -4286,7 +3830,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cetrizine_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.601Z"
   }
@@ -4305,7 +3849,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Celestamine_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.609Z"
   }
@@ -4316,15 +3860,15 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "Cold caps",
-    "description": "Cold caps is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
+    "name": "Cold cap",
+    "description": "Cold cap is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
     "price": "15.00",
     "buying_price": null,
     "stock_quantity": 36,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cold_caps.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.615Z"
   }
@@ -4343,7 +3887,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Flugone.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.621Z"
   }
@@ -4362,28 +3906,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Fluxicold.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.628Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 217,
-  "fields": {
-    "category": 12,
-    "item_id": "",
-    "name": "Bemacof tablet",
-    "description": "Bemacof tablet is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.635Z"
   }
 },
 {
@@ -4392,15 +3917,15 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "Strepsils loz",
-    "description": "Strepsils loz is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
+    "name": "Strepsils lozzonges",
+    "description": "Strepsils lozzonges is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
     "price": "40.00",
     "buying_price": null,
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Strepsils_loz.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.642Z"
   }
@@ -4411,36 +3936,17 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "Kaluma chewable lozenges",
-    "description": "Kaluma chewable lozenges is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
+    "name": "Kaluma lozenges",
+    "description": "Kaluma lozenges is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
     "price": "20.00",
     "buying_price": null,
     "stock_quantity": 9,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Kaluma_chewable_lozenges.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.649Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 220,
-  "fields": {
-    "category": 12,
-    "item_id": "",
-    "name": "Contas tabs",
-    "description": "Contas tabs is an antihistamine used to relieve symptoms of allergic conditions such as itching, sneezing, runny nose or hives. The exact active ingredient and sedating effect depend on the formulation.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.656Z"
   }
 },
 {
@@ -4457,7 +3963,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Homagone.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.661Z"
   }
@@ -4476,7 +3982,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Loratidine.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.667Z"
   }
@@ -4495,7 +4001,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Levocetrizine.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.674Z"
   }
@@ -4506,15 +4012,15 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "Theophylline franol",
+    "name": "Theophylline",
     "description": "Theophylline is a bronchodilator used in selected respiratory conditions. Because dosing and interactions require care, it should be used only under medical supervision.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Theophylline_franol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.680Z"
   }
@@ -4525,7 +4031,7 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "Ventolin salbutamol",
+    "name": "Ventolin salbutamol tablets",
     "description": "Ventolin contains salbutamol, a fast-acting bronchodilator used to relieve symptoms such as wheezing, shortness of breath and chest tightness associated with reversible airway narrowing. It is commonly used as a reliever inhaler for asthma and other obstructive airway conditions. Use as directed by your healthcare professional.",
     "price": "3.00",
     "buying_price": null,
@@ -4533,7 +4039,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ventolin_salbutamol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.687Z"
   }
@@ -4544,7 +4050,7 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "Montelacast 10mg (vitagel)",
+    "name": "Montelacast 10mg",
     "description": "Montelukast is used for selected asthma and allergic-rhinitis indications. It is not a rescue treatment for an acute asthma attack and should be used as prescribed.",
     "price": "20.00",
     "buying_price": null,
@@ -4552,7 +4058,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Montelacast_10mg_vitagel.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.693Z"
   }
@@ -4571,7 +4077,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Prednisone_5mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.699Z"
   }
@@ -4582,7 +4088,7 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "Piriton tablets cpm",
+    "name": "Piriton tablets (chlorphenamine)",
     "description": "Piriton contains chlorphenamine, an antihistamine used to relieve allergy symptoms such as sneezing, runny nose, itchy or watery eyes and itchy skin. It may cause drowsiness, so avoid driving or operating machinery if affected. Different Piriton products may have different formulations, so check the pack.",
     "price": "2.00",
     "buying_price": null,
@@ -4590,7 +4096,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Piriton_tablets_cpm.png",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.706Z"
   }
@@ -4609,7 +4115,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Promethazine_25mg_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.711Z"
   }
@@ -4628,7 +4134,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Nosic.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.723Z"
   }
@@ -4639,15 +4145,15 @@
   "fields": {
     "category": 26,
     "item_id": "",
-    "name": "Plasil (metcos 10 mg tabs)",
-    "description": "Plasil (metcos 10 mg tabs) is an antiemetic medicine used to relieve nausea or vomiting. Use according to the product instructions and professional advice.",
+    "name": "Plasil",
+    "description": "Plasil (metoclopramide) is an anti-sickness medicine used to treat nausea and vomiting, including some migraine-related nausea. It is normally prescribed for short-term use. Follow your prescription and check the leaflet for cautions and side effects.",
     "price": "5.00",
     "buying_price": null,
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Plasil_metcos_10_mg_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.729Z"
   }
@@ -4659,14 +4165,14 @@
     "category": 26,
     "item_id": "",
     "name": "Domperdone",
-    "description": "Domperdone is an antiemetic medicine used to relieve nausea or vomiting. Use according to the product instructions and professional advice.",
+    "description": "Domperidone is a prescription anti-sickness medicine used to relieve nausea and vomiting. It is usually prescribed for short-term use; follow clinician directions and ask a pharmacist to check it against your conditions and other medicines.",
     "price": "10.00",
     "buying_price": null,
     "stock_quantity": 50,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Domperdone.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.735Z"
   }
@@ -4677,7 +4183,7 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Cypro b plus tablets",
+    "name": "Cypro B plus tablets",
     "description": "Multivitamin/nutritional supplement provides a combination of vitamins and, in some formulations, minerals or other nutrients. Use according to the product label and do not exceed the recommended daily intake.",
     "price": "30.00",
     "buying_price": null,
@@ -4685,7 +4191,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cypro_b_plus_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.749Z"
   }
@@ -4704,7 +4210,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Becoatin_syrup_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.757Z"
   }
@@ -4715,7 +4221,7 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Vitamin c",
+    "name": "Vitamin C",
     "description": "Vitamin C (ascorbic acid) supplement provides vitamin C for dietary supplementation and prevention or treatment of deficiency where appropriate. Follow the recommended serving on the pack.",
     "price": "0.00",
     "buying_price": null,
@@ -4723,7 +4229,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Vitamin_c.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.764Z"
   }
@@ -4742,7 +4248,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Multivitamin_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.770Z"
   }
@@ -4760,8 +4266,8 @@
     "stock_quantity": 50,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Griseofulvin_250.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.781Z"
   }
@@ -4779,8 +4285,8 @@
     "stock_quantity": 10,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Griseofulvin_500.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.792Z"
   }
@@ -4798,29 +4304,10 @@
     "stock_quantity": 10,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Buscopan_tablets_5mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.805Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 240,
-  "fields": {
-    "category": 27,
-    "item_id": "",
-    "name": "Ketoconazole 200mg tablets",
-    "description": "Ketoconazole is an antifungal medicine used for susceptible fungal infections. The route and formulation determine its appropriate use.",
-    "price": "10.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.816Z"
   }
 },
 {
@@ -4829,15 +4316,15 @@
   "fields": {
     "category": 27,
     "item_id": "",
-    "name": "Terbinafine",
+    "name": "Terbinafine cream",
     "description": "Terbinafine is an antifungal medicine used for susceptible fungal infections, particularly dermatophyte infections. Follow the directions for the specific formulation.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Terbinafine.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.825Z"
   }
@@ -4855,29 +4342,10 @@
     "stock_quantity": 20,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Fluconazole_150mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.859Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 243,
-  "fields": {
-    "category": 27,
-    "item_id": "",
-    "name": "Clotrimazole pessaries 200g 3s",
-    "description": "Clotrimazole is an antifungal used for susceptible fungal and yeast infections. The cream, vaginal and other formulations are used differently; follow the directions for the exact product.",
-    "price": "150.00",
-    "buying_price": null,
-    "stock_quantity": 2,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.870Z"
   }
 },
 {
@@ -4886,7 +4354,7 @@
   "fields": {
     "category": 28,
     "item_id": "",
-    "name": "Xpen",
+    "name": "Benzylpenicillin 5M Xpen",
     "description": "Xpen is an injectable medicine intended for use in appropriate clinical settings. The exact indication, concentration, route and dose depend on the formulation and should be confirmed by a trained healthcare professional.",
     "price": "0.00",
     "buying_price": null,
@@ -4894,7 +4362,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Xpen.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.898Z"
   }
@@ -4913,28 +4381,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Varinil_amlodipine_5mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.906Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 246,
-  "fields": {
-    "category": 28,
-    "item_id": "",
-    "name": "Ceftaxime",
-    "description": "Ceftaxime is an injectable medicine intended for use in appropriate clinical settings. The exact indication, concentration, route and dose depend on the formulation and should be confirmed by a trained healthcare professional.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:42.914Z"
   }
 },
 {
@@ -4950,8 +4399,8 @@
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Benzathine_penycyline_panadar.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.922Z"
   }
@@ -4969,8 +4418,8 @@
     "stock_quantity": 10,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Ceftriaxone_injection.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.930Z"
   }
@@ -4981,7 +4430,7 @@
   "fields": {
     "category": 28,
     "item_id": "",
-    "name": "Omeprazole inj",
+    "name": "Omeprazole injection",
     "description": "Omeprazole is a proton-pump inhibitor that reduces stomach-acid production and is used for acid-related gastrointestinal conditions such as reflux and ulcers. Use according to the prescribed regimen.",
     "price": "0.00",
     "buying_price": null,
@@ -4989,7 +4438,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Omeprazole_inj.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.940Z"
   }
@@ -5000,15 +4449,15 @@
   "fields": {
     "category": 28,
     "item_id": "",
-    "name": "Tranexmaic",
+    "name": "Tranexmaic acid injection",
     "description": "Tranexamic acid is an antifibrinolytic medicine used to reduce excessive bleeding in selected clinical situations. It should be used only under appropriate medical guidance.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Tranexmaic.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.949Z"
   }
@@ -5019,15 +4468,15 @@
   "fields": {
     "category": 28,
     "item_id": "",
-    "name": "Diazepan inj",
+    "name": "Diazepan injection",
     "description": "Diazepam is a benzodiazepine medicine used for selected indications including anxiety, muscle spasm and seizures. It can cause sedation and dependence and requires careful prescription supervision.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Diazepan_injection.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.957Z"
   }
@@ -5045,8 +4494,8 @@
     "stock_quantity": 3,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Lignocane_2.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.966Z"
   }
@@ -5065,7 +4514,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Adrenaline_injection.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.974Z"
   }
@@ -5083,8 +4532,8 @@
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Hydrocortisone_injection.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.982Z"
   }
@@ -5102,8 +4551,8 @@
     "stock_quantity": 10,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Gentamycin_injection.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:42.998Z"
   }
@@ -5121,9 +4570,9 @@
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "requires_prescription": true,
+    "image": "products/I.V_Giving_sets.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.005Z"
   }
 },
@@ -5140,9 +4589,9 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "requires_prescription": true,
+    "image": "products/Needle_holder.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.014Z"
   }
 },
@@ -5159,8 +4608,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/IV_lines_mix_gauge.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.022Z"
   }
@@ -5179,8 +4628,8 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "image": "products/Sample_collecting_containers.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.029Z"
   }
 },
@@ -5198,28 +4647,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "image": "products/Dust_bins.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.038Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 261,
-  "fields": {
-    "category": 10,
-    "item_id": "",
-    "name": "sharp box safety box",
-    "description": "Sharps container designed for safe collection and disposal of used needles, lancets and other sharp medical waste. Close and dispose of according to local clinical-waste procedures.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 1,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:43.045Z"
   }
 },
 {
@@ -5236,7 +4666,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Dispensing_envelopes.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.054Z"
   }
@@ -5255,7 +4685,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Packaging_bags_WId3JNh.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.062Z"
   }
@@ -5274,7 +4704,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Packaging_bags.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.069Z"
   }
@@ -5293,7 +4723,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cellotape.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.081Z"
   }
@@ -5312,7 +4742,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Stapler_with_Staples.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.089Z"
   }
@@ -5331,7 +4761,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Surgical_spirit_50ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.099Z"
   }
@@ -5350,7 +4780,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Surgical_spirit_100_ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.106Z"
   }
@@ -5369,7 +4799,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Surgical_spirit_500_ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.115Z"
   }
@@ -5388,7 +4818,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Methylated_spirit.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.123Z"
   }
@@ -5407,7 +4837,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Povidone__iodine_500_ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.130Z"
   }
@@ -5426,7 +4856,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Povidone_iodine_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.137Z"
   }
@@ -5445,7 +4875,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Povidone_iodine__50ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.144Z"
   }
@@ -5464,7 +4894,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Syringe_10cc_with_needle.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.150Z"
   }
@@ -5483,7 +4913,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Syringe_5_cc_with_needle.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.158Z"
   }
@@ -5502,7 +4932,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Syringe_2_cc_with_needle.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.167Z"
   }
@@ -5520,9 +4950,9 @@
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "requires_prescription": true,
+    "image": "products/Needle_21gauge.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.175Z"
   }
 },
@@ -5539,9 +4969,9 @@
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "requires_prescription": true,
+    "image": "products/Needle_21gauge_wdoD6l1.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.182Z"
   }
 },
@@ -5559,7 +4989,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cotton_400mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.190Z"
   }
@@ -5578,7 +5008,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cotton_200mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.199Z"
   }
@@ -5591,13 +5021,13 @@
     "item_id": "",
     "name": "Cotton 100mg",
     "description": "Medical cotton material used for appropriate cleansing, padding or dressing applications. Check whether the specific product is sterile before use in wound care.",
-    "price": "150.00",
+    "price": "130.00",
     "buying_price": null,
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cotton_100mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.207Z"
   }
@@ -5616,7 +5046,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cotton_50_mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.215Z"
   }
@@ -5635,7 +5065,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Strapping_4_inch.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.224Z"
   }
@@ -5654,28 +5084,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Gauze_roll.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.232Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 285,
-  "fields": {
-    "category": 10,
-    "item_id": "",
-    "name": "Gloves",
-    "description": "Medical examination or protective gloves intended to reduce hand contamination during healthcare procedures and handling of potentially contaminated materials. Single-use gloves should not be reused.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:43.239Z"
   }
 },
 {
@@ -5684,7 +5095,7 @@
   "fields": {
     "category": 10,
     "item_id": "",
-    "name": "surgical Masks blue 50s",
+    "name": "Face Masks blue",
     "description": "Medical face mask intended to reduce exposure to respiratory droplets and contamination during appropriate healthcare or personal-care use. The level of protection depends on the specific mask type and standard.",
     "price": "10.00",
     "buying_price": null,
@@ -5692,7 +5103,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/surgical_Masks_blue_50s.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.245Z"
   }
@@ -5711,7 +5122,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Masks_black.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.253Z"
   }
@@ -5730,28 +5141,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Kaluma_balm.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.262Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 289,
-  "fields": {
-    "category": 10,
-    "item_id": "",
-    "name": "Methol",
-    "description": "Methol is a pharmacy or healthcare supply intended for dispensing, wound care, infection prevention, packaging or routine clinical use, depending on the product. Check the pack for sterility, size and intended application.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 12,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:43.269Z"
   }
 },
 {
@@ -5768,7 +5160,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Sterole_gauze_swab.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.277Z"
   }
@@ -5786,8 +5178,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Parrafin_gauze.png",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.285Z"
   }
@@ -5798,7 +5190,7 @@
   "fields": {
     "category": 10,
     "item_id": "",
-    "name": "Trust struded",
+    "name": "Trust studded",
     "description": "Trust struded is a pharmacy or healthcare supply intended for dispensing, wound care, infection prevention, packaging or routine clinical use, depending on the product. Check the pack for sterility, size and intended application.",
     "price": "0.00",
     "buying_price": null,
@@ -5806,7 +5198,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Trust_struded.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.291Z"
   }
@@ -5825,7 +5217,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Trust_ribbed.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.298Z"
   }
@@ -5844,7 +5236,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Trust_classic.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.305Z"
   }
@@ -5863,7 +5255,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Kiss_classic.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.312Z"
   }
@@ -5882,7 +5274,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Kiss_strawberry.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.318Z"
   }
@@ -5901,7 +5293,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Kiss_chocolate.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.326Z"
   }
@@ -5912,7 +5304,7 @@
   "fields": {
     "category": 10,
     "item_id": "",
-    "name": "Elastoplast 1 pack of 100",
+    "name": "Elastoplast",
     "description": "Bandage or adhesive dressing used to secure dressings, support an area or provide appropriate light compression depending on the product. Follow the package directions.",
     "price": "5.00",
     "buying_price": null,
@@ -5920,7 +5312,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Elastoplast_1_pack_of_100.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.333Z"
   }
@@ -5939,7 +5331,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/crepe_bandage.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.339Z"
   }
@@ -5958,7 +5350,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Crepe_bandage_6_inch.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.347Z"
   }
@@ -5977,7 +5369,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Crepe_bandage_2_inch.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.354Z"
   }
@@ -5988,15 +5380,15 @@
   "fields": {
     "category": 10,
     "item_id": "",
-    "name": "sanitary pads (Maternity pad 10s",
-    "description": "sanitary pads (Maternity pad 10s is a pharmacy or healthcare supply intended for dispensing, wound care, infection prevention, packaging or routine clinical use, depending on the product. Check the pack for sterility, size and intended application.",
+    "name": "Maternity Pads",
+    "description": "Maternity pads is a pharmacy or healthcare supply intended for dispensing, wound care, infection prevention, packaging or routine clinical use, depending on the product. Check the pack for sterility, size and intended application.",
     "price": "150.00",
     "buying_price": null,
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/sanitary_pads_Maternity_pad_10s.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.361Z"
   }
@@ -6015,7 +5407,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Pharmasal_spray.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.374Z"
   }
@@ -6026,36 +5418,17 @@
   "fields": {
     "category": 10,
     "item_id": "",
-    "name": "Sutures",
+    "name": "Surgical Sutures",
     "description": "Surgical suture material used by trained healthcare professionals to close wounds or surgical incisions. Material, size and needle type vary by product.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Sutures.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.381Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 305,
-  "fields": {
-    "category": 10,
-    "item_id": "",
-    "name": "Needle holder (duplicate)",
-    "description": "Sterile syringe or needle intended for administering or withdrawing medicines and fluids during appropriate clinical procedures. Single-use devices should be disposed of safely after use.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:43.388Z"
   }
 },
 {
@@ -6072,7 +5445,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Deep_heat_spray.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.395Z"
   }
@@ -6091,7 +5464,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Water_300ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.402Z"
   }
@@ -6110,8 +5483,8 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "image": "products/Rechargable_bulb.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.409Z"
   }
 },
@@ -6129,7 +5502,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Unisten_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.423Z"
   }
@@ -6140,15 +5513,15 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "Extraderm cream",
-    "description": "Extraderm cream is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
+    "name": "Xtraderm cream",
+    "description": "Xtraderm cream is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
     "price": "200.00",
     "buying_price": null,
     "stock_quantity": 1,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Extraderm_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.433Z"
   }
@@ -6159,7 +5532,7 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "Epiderm",
+    "name": "Epiderm cream",
     "description": "Epiderm is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
     "price": "150.00",
     "buying_price": null,
@@ -6167,7 +5540,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Epiderm.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.441Z"
   }
@@ -6186,7 +5559,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Acnesol_cream_tretinoin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.450Z"
   }
@@ -6204,8 +5577,8 @@
     "stock_quantity": 3,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Fungistat_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.458Z"
   }
@@ -6224,28 +5597,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Funbact_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.465Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 315,
-  "fields": {
-    "category": 29,
-    "item_id": "",
-    "name": "Knee prosol",
-    "description": "Knee prosol is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:43.473Z"
   }
 },
 {
@@ -6262,7 +5616,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Deep_heat_rub_35mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.481Z"
   }
@@ -6281,7 +5635,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Dermazine.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.489Z"
   }
@@ -6300,7 +5654,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Hydrocortisone_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.496Z"
   }
@@ -6312,14 +5666,14 @@
     "category": 29,
     "item_id": "",
     "name": "Ketoconazole cream",
-    "description": "Ketoconazole is an antifungal medicine used for susceptible fungal infections. The route and formulation determine its appropriate use.",
+    "description": "Topical antifungal cream used for fungal skin infections such as athlete's foot and jock itch. Apply only as directed on the product label or by a healthcare professional, and avoid contact with the eyes.",
     "price": "100.00",
     "buying_price": null,
     "stock_quantity": 3,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Ketoconazole_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.503Z"
   }
@@ -6330,7 +5684,7 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "Mupiburn",
+    "name": "Mupiban (Mupirocin)",
     "description": "Mupirocin is a topical antibiotic used for selected bacterial skin infections. Apply only as directed and avoid contact with the eyes unless specifically formulated for ocular use.",
     "price": "0.00",
     "buying_price": null,
@@ -6338,7 +5692,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Mupiburn.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.511Z"
   }
@@ -6357,7 +5711,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Liquid_parafin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.519Z"
   }
@@ -6376,7 +5730,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Calamine_lotion.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.526Z"
   }
@@ -6395,7 +5749,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Optilube.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.533Z"
   }
@@ -6406,15 +5760,15 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "Meden cream",
-    "description": "Meden cream is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
-    "price": "150.00",
+    "name": "Mediven cream",
+    "description": "Mediven cream is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
+    "price": "100.00",
     "buying_price": null,
     "stock_quantity": 4,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Meden_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.540Z"
   }
@@ -6432,8 +5786,8 @@
     "stock_quantity": 4,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Clozole_B_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.547Z"
   }
@@ -6452,7 +5806,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Clotrimazole_cream_sBKopxS.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.554Z"
   }
@@ -6471,7 +5825,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Delofenac_gel.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.561Z"
   }
@@ -6490,7 +5844,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Clob_B.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.568Z"
   }
@@ -6509,28 +5863,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Zupricin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.575Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 330,
-  "fields": {
-    "category": 29,
-    "item_id": "",
-    "name": "Mupiracin",
-    "description": "Mupirocin is a topical antibiotic used for selected bacterial skin infections. Apply only as directed and avoid contact with the eyes unless specifically formulated for ocular use.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:43.581Z"
   }
 },
 {
@@ -6547,7 +5882,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Pharmasal_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.588Z"
   }
@@ -6566,7 +5901,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Elevate_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.595Z"
   }
@@ -6584,8 +5919,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Clomid.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.609Z"
   }
@@ -6596,15 +5931,15 @@
   "fields": {
     "category": 30,
     "item_id": "",
-    "name": "Fertilion f &m",
-    "description": "Fertility-support product; the exact ingredients and approved use should be confirmed from the manufacturer's packaging and product information.",
+    "name": "Fertilion F",
+    "description": "Fertility-support product; the exact ingredients and approved use should be confirmed from the manufacturer's packaging and product information.\r\nFertilion-F Capsules are a specialist fertility and hormonal-balance supplement for women, built around the clinically studied inositol pair. Myo-inositol and D-chiro-inositol. With folic acid, vitamin C, selenium, L-arginine and a broad spectrum of vitamins and minerals. The formula supports normal ovarian function, egg quality and menstrual regularity, and is particularly popular among women managing polycystic ovary syndrome (PCOS) or preparing to conceive. Inositol supports insulin sensitivity. A key factor in PCOS. While folic acid builds the nutritional foundation for early pregnancy. A trusted conception companion for women (30 soft capsules).",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Fertilion_f_m.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.617Z"
   }
@@ -6622,8 +5957,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Dufastone.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.626Z"
   }
@@ -6642,28 +5977,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Steron.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.634Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 337,
-  "fields": {
-    "category": 30,
-    "item_id": "",
-    "name": "Sustin generic",
-    "description": "Family-planning product intended to prevent pregnancy or support reproductive-health care. Use according to the specific product instructions and professional advice.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:43.643Z"
   }
 },
 {
@@ -6679,8 +5995,8 @@
     "stock_quantity": 10,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Tranexmaic_acid_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.651Z"
   }
@@ -6691,7 +6007,7 @@
   "fields": {
     "category": 18,
     "item_id": "",
-    "name": "Ifas FERROLIC",
+    "name": "Ifas ferrous sulphate",
     "description": "Iron-containing haematinic products are used to prevent or treat iron deficiency and support haemoglobin production. The exact iron salt and additional vitamins vary by formulation; check the pack for composition and directions.",
     "price": "5.00",
     "buying_price": null,
@@ -6699,7 +6015,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ifas_FERROLIC.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.659Z"
   }
@@ -6710,7 +6026,7 @@
   "fields": {
     "category": 30,
     "item_id": "",
-    "name": "Postinor 2 original (p2)",
+    "name": "Postinor 2",
     "description": "Postinor-2 contains levonorgestrel and is an emergency contraceptive used to reduce the chance of pregnancy after unprotected sex or contraceptive failure. It is intended for emergency use and is not a replacement for regular contraception. It does not protect against sexually transmitted infections.",
     "price": "200.00",
     "buying_price": null,
@@ -6718,7 +6034,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Postinor_2_original_p2.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.667Z"
   }
@@ -6729,7 +6045,7 @@
   "fields": {
     "category": 30,
     "item_id": "",
-    "name": "postinor 2 Generic (p2)",
+    "name": "Safe 72 Emergency pills (P2)",
     "description": "Postinor-2 contains levonorgestrel and is an emergency contraceptive used to reduce the chance of pregnancy after unprotected sex or contraceptive failure. It is intended for emergency use and is not a replacement for regular contraception. It does not protect against sexually transmitted infections.",
     "price": "100.00",
     "buying_price": null,
@@ -6737,7 +6053,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/postinor_2_Generic_p2.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.676Z"
   }
@@ -6748,7 +6064,7 @@
   "fields": {
     "category": 30,
     "item_id": "",
-    "name": "Femiplan pills cycle 28s",
+    "name": "Femiplan pills",
     "description": "Contraceptive/family-planning product intended to prevent pregnancy. The method, duration of protection and directions depend on the specific formulation; use according to the product information and professional advice.",
     "price": "150.00",
     "buying_price": null,
@@ -6756,7 +6072,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Femiplan_pills_cycle_28s.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.685Z"
   }
@@ -6767,7 +6083,7 @@
   "fields": {
     "category": 30,
     "item_id": "",
-    "name": "Lydia fine pills 28s",
+    "name": "Lydia fine pills",
     "description": "Contraceptive/family-planning product intended to prevent pregnancy. The method, duration of protection and directions depend on the specific formulation; use according to the product information and professional advice.",
     "price": "100.00",
     "buying_price": null,
@@ -6775,7 +6091,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Lydia_fine_pills_28s.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.694Z"
   }
@@ -6794,7 +6110,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Microlut.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.701Z"
   }
@@ -6806,14 +6122,14 @@
     "category": 30,
     "item_id": "",
     "name": "Mycrognon",
-    "description": "Family-planning/contraceptive product used to prevent pregnancy. The method and duration of protection depend on the specific product.",
+    "description": "Microgynon 30 is a combined hormonal contraceptive pill used to prevent pregnancy. Follow the pack leaflet for its schedule and missed-tablet instructions; it does not protect against sexually transmitted infections. Ask a healthcare professional whether it is suitable for you.",
     "price": "0.00",
     "buying_price": null,
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Mycrognon.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.709Z"
   }
@@ -6832,28 +6148,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Implanon.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.719Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 347,
-  "fields": {
-    "category": 30,
-    "item_id": "",
-    "name": "Nxt",
-    "description": "Family-planning/contraceptive product used to prevent pregnancy. The method and duration of protection depend on the specific product.",
-    "price": "0.00",
-    "buying_price": null,
-    "stock_quantity": 0,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:43.727Z"
   }
 },
 {
@@ -6870,7 +6167,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Jadelle.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.736Z"
   }
@@ -6881,7 +6178,7 @@
   "fields": {
     "category": 31,
     "item_id": "",
-    "name": "Pregnancy test kit pdt",
+    "name": "Pregnancy test kit",
     "description": "Rapid pregnancy test designed to detect human chorionic gonadotropin (hCG) in urine. Follow the manufacturer's sampling and timing instructions and seek clinical confirmation when required.",
     "price": "50.00",
     "buying_price": null,
@@ -6889,7 +6186,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Pregnancy_test_kit_pdt.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.749Z"
   }
@@ -6902,13 +6199,13 @@
     "item_id": "",
     "name": "HIV test kit",
     "description": "HIV self-test or screening kit designed to detect HIV-related markers using the specimen specified by the manufacturer. A reactive result requires appropriate confirmatory testing and counselling.",
-    "price": "150.00",
+    "price": "200.00",
     "buying_price": null,
     "stock_quantity": 14,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/HIV_test_kit.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.758Z"
   }
@@ -6926,8 +6223,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Malaria_test_kit.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.767Z"
   }
@@ -6945,8 +6242,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Vdrl_test_kit.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.776Z"
   }
@@ -6964,9 +6261,9 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "requires_prescription": true,
+    "image": "products/Clamydia_kit.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.784Z"
   }
 },
@@ -6976,7 +6273,7 @@
   "fields": {
     "category": 31,
     "item_id": "",
-    "name": "Gonnohoea kit",
+    "name": "Gonnohoea  test kit",
     "description": "Rapid diagnostic test intended to assist screening for gonorrhoea using the specimen type specified by the manufacturer. Follow the kit instructions and seek clinical evaluation for symptoms or positive results.",
     "price": "0.00",
     "buying_price": null,
@@ -6984,8 +6281,8 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "image": "products/Gonnohoea_kit.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.794Z"
   }
 },
@@ -7003,7 +6300,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Urinalysis_strip.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.802Z"
   }
@@ -7022,7 +6319,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Hpylory_kit.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.810Z"
   }
@@ -7040,8 +6337,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Typhoid_kit.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.818Z"
   }
@@ -7059,8 +6356,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Fob_kit.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.827Z"
   }
@@ -7071,7 +6368,7 @@
   "fields": {
     "category": 31,
     "item_id": "",
-    "name": "sterile Surgical gloves",
+    "name": "Sterile Surgical Gloves 7.5",
     "description": "Medical examination or protective gloves intended to reduce hand contamination during healthcare procedures and handling of potentially contaminated materials. Single-use gloves should not be reused.",
     "price": "40.00",
     "buying_price": null,
@@ -7079,7 +6376,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/sterile_Surgical_gloves.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.836Z"
   }
@@ -7090,7 +6387,7 @@
   "fields": {
     "category": 31,
     "item_id": "",
-    "name": "Clean gloves",
+    "name": "Gloves",
     "description": "Medical examination or protective gloves intended to reduce hand contamination during healthcare procedures and handling of potentially contaminated materials. Single-use gloves should not be reused.",
     "price": "10.00",
     "buying_price": null,
@@ -7098,7 +6395,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Clean_gloves.webp",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.845Z"
   }
@@ -7117,7 +6414,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Water_dispenser.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.853Z"
   }
@@ -7136,7 +6433,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/BP_machine.webp",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.867Z"
   }
@@ -7155,8 +6452,8 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
-    "is_active": true,
+    "image": "products/Rbs_machine.jpg",
+    "is_active": false,
     "created_at": "2026-09-11T15:40:43.875Z"
   }
 },
@@ -7166,7 +6463,7 @@
   "fields": {
     "category": 32,
     "item_id": "",
-    "name": "Spo2",
+    "name": "Pulse oximeter",
     "description": "Pulse oximeter is a non-invasive device used to estimate peripheral oxygen saturation and pulse rate. Measurement accuracy depends on correct placement and device use.",
     "price": "0.00",
     "buying_price": null,
@@ -7174,7 +6471,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Spo2.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.885Z"
   }
@@ -7193,7 +6490,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Stethoscopes.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.894Z"
   }
@@ -7212,7 +6509,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Thermogun.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.902Z"
   }
@@ -7223,7 +6520,7 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Tricohist  big 100 ml",
+    "name": "Tricohist 100 ml",
     "description": "Tricohist  big 100 ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "300.00",
     "buying_price": null,
@@ -7231,7 +6528,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Tricohist__big_100_ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.910Z"
   }
@@ -7250,7 +6547,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Tridex__100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.919Z"
   }
@@ -7269,7 +6566,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Trimex__diabetic_100_ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.944Z"
   }
@@ -7280,15 +6577,15 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Thio carb 60ml",
-    "description": "Thio carb 60ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
+    "name": "Thiocarb 60ml",
+    "description": "Thiocarb 60ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "100.00",
     "buying_price": null,
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Thio_carb_60ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.954Z"
   }
@@ -7307,7 +6604,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ulgicid_cherry_flavour_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.979Z"
   }
@@ -7326,7 +6623,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ulgicid_mint_flavour_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.987Z"
   }
@@ -7337,7 +6634,7 @@
   "fields": {
     "category": 14,
     "item_id": "",
-    "name": "brufen syrup 60mls (profen)",
+    "name": "Brufen syrup 60mls (profen)",
     "description": "Brufen contains ibuprofen, a non-steroidal anti-inflammatory medicine used to relieve pain, reduce inflammation and lower fever. It is commonly used for conditions such as headache, dental pain, muscle or joint pain and menstrual pain. Strengths and formulations vary, so follow the directions on the specific pack or advice from a pharmacist.",
     "price": "50.00",
     "buying_price": null,
@@ -7345,28 +6642,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Brufen_syrup_60mls_profen.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:43.999Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 374,
-  "fields": {
-    "category": 14,
-    "item_id": "",
-    "name": "brufen syrup 100mls (daprofen)",
-    "description": "Brufen contains ibuprofen, a non-steroidal anti-inflammatory medicine used to relieve pain, reduce inflammation and lower fever. It is commonly used for conditions such as headache, dental pain, muscle or joint pain and menstrual pain. Strengths and formulations vary, so follow the directions on the specific pack or advice from a pharmacist.",
-    "price": "100.00",
-    "buying_price": null,
-    "stock_quantity": 10,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:44.008Z"
   }
 },
 {
@@ -7383,7 +6661,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Imacof__expectorant_100ml_hGjUMcq.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.017Z"
   }
@@ -7394,15 +6672,15 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Koff gone 5 cough syrup 100ml",
-    "description": "Koff gone 5 cough syrup 100ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
+    "name": "Kofgone cough syrup 100ml",
+    "description": "Kofgone cough syrup 100ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "100.00",
     "buying_price": null,
     "stock_quantity": 5,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Koff_gone_5_cough_syrup_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.025Z"
   }
@@ -7413,7 +6691,7 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Lactulose lactulin solution 100ml",
+    "name": "Lactulin solution 100ml",
     "description": "Lactulose is an osmotic laxative used to soften stools and relieve constipation. It may also be prescribed for specific liver-related conditions; use according to professional advice.",
     "price": "500.00",
     "buying_price": null,
@@ -7421,7 +6699,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Lactulose_lactulin_solution_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.034Z"
   }
@@ -7432,7 +6710,7 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Lactulose lactitose syrup100ml",
+    "name": "Lactulose syrup100ml",
     "description": "Lactulose is an osmotic laxative used to soften stools and relieve constipation. It may also be prescribed for specific liver-related conditions; use according to professional advice.",
     "price": "400.00",
     "buying_price": null,
@@ -7440,7 +6718,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/lactitose_syrup100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.041Z"
   }
@@ -7459,7 +6737,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Lunahist_cough_syrup_60mls.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.049Z"
   }
@@ -7470,7 +6748,7 @@
   "fields": {
     "category": 25,
     "item_id": "",
-    "name": "Metronidazole 400mg (flazole)",
+    "name": "Metronidazole 400mg",
     "description": "Metronidazole is an antimicrobial medicine used for susceptible anaerobic bacterial and certain protozoal infections. The correct dose and duration depend on the condition being treated.",
     "price": "6.00",
     "buying_price": null,
@@ -7478,7 +6756,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Metronidazole_400mg_flazole.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.058Z"
   }
@@ -7489,7 +6767,7 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "Lactulose osmolax solution 100ml",
+    "name": "Osmolax Solution 100ml",
     "description": "Lactulose is an osmotic laxative used to soften stools and relieve constipation. It may also be prescribed for specific liver-related conditions; use according to professional advice.",
     "price": "500.00",
     "buying_price": null,
@@ -7497,7 +6775,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Lactulose_osmolax_solution_100ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.066Z"
   }
@@ -7516,7 +6794,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Paracetamol_syrup_100ml_curamol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.075Z"
   }
@@ -7535,7 +6813,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Paracetamol_syrup_60_ml_betamol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.083Z"
   }
@@ -7554,7 +6832,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Paracetamol_syrup_60ml_curamol.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.092Z"
   }
@@ -7565,7 +6843,7 @@
   "fields": {
     "category": 17,
     "item_id": "",
-    "name": "remidin (mouth wash)",
+    "name": "Remidin Mouth Wash",
     "description": "Mouthwash/oral-rinse product intended to support oral hygiene and cleansing. Follow the product directions and do not swallow unless the formulation specifically permits it.",
     "price": "350.00",
     "buying_price": null,
@@ -7573,7 +6851,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/remidin_mouth_wash.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.100Z"
   }
@@ -7584,15 +6862,15 @@
   "fields": {
     "category": 33,
     "item_id": "",
-    "name": "Ringers lactate (RL)",
+    "name": "Ringers lactate",
     "description": "Ringer's lactate is an intravenous fluid used for fluid and electrolyte replacement in appropriate clinical settings. Administration should be supervised by trained healthcare personnel.",
-    "price": "150.00",
+    "price": "170.00",
     "buying_price": null,
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ringers_lactate_RL.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.112Z"
   }
@@ -7610,29 +6888,10 @@
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Clozole_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.121Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 388,
-  "fields": {
-    "category": 29,
-    "item_id": "",
-    "name": "diclofenac gel",
-    "description": "Diclofenac is an NSAID used to relieve pain and inflammation. Different formulations have different directions and precautions; use according to professional advice.",
-    "price": "100.00",
-    "buying_price": null,
-    "stock_quantity": 10,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:44.129Z"
   }
 },
 {
@@ -7641,7 +6900,7 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "diprosal cream",
+    "name": "Diproson cream",
     "description": "diprosal cream is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
     "price": "150.00",
     "buying_price": null,
@@ -7649,7 +6908,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Diproson_cream.png",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.138Z"
   }
@@ -7660,7 +6919,7 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "lofnac gel 30 mg",
+    "name": "Lofnac gel",
     "description": "lofnac gel 30 mg is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
     "price": "250.00",
     "buying_price": null,
@@ -7668,7 +6927,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/lofnac_gel_30_mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.145Z"
   }
@@ -7687,7 +6946,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Lydia_depo_contraceptive_injection.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.154Z"
   }
@@ -7698,7 +6957,7 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "nauma diclofenac gel",
+    "name": "Nauma Balm",
     "description": "Diclofenac is an NSAID used to relieve pain and inflammation. Different formulations have different directions and precautions; use according to professional advice.",
     "price": "150.00",
     "buying_price": null,
@@ -7706,7 +6965,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/nauma_diclofenac_gel.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.162Z"
   }
@@ -7717,7 +6976,7 @@
   "fields": {
     "category": 10,
     "item_id": "",
-    "name": "Surgical scarpel blade g23",
+    "name": "Surgical blade g23 (scarpel)",
     "description": "Sterile surgical blade intended for controlled cutting procedures. For use by appropriately trained healthcare professionals only.",
     "price": "10.00",
     "buying_price": null,
@@ -7725,7 +6984,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Surgical_scarpel_blade_g23.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.171Z"
   }
@@ -7736,7 +6995,7 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "mentho plus lip balm",
+    "name": "Mentho Plus Balm",
     "description": "mentho plus lip balm is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
     "price": "60.00",
     "buying_price": null,
@@ -7744,7 +7003,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/mentho_plus_lip_balm.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.180Z"
   }
@@ -7755,15 +7014,15 @@
   "fields": {
     "category": 11,
     "item_id": "",
-    "name": "neurobion (nervogenta complex",
-    "description": "neurobion (nervogenta complex is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
-    "price": "10.00",
+    "name": "Neuro-Forte Tablets (neurobion)",
+    "description": "Neurobion is a nutritional or vitamin supplement intended to provide selected nutrients or support dietary intake. Check the formulation, age suitability and recommended daily amount on the product label.",
+    "price": "20.00",
     "buying_price": null,
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/neurobion_nervogenta_complex.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.188Z"
   }
@@ -7774,15 +7033,15 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "ojen oz",
-    "description": "ojen oz is an antibiotic medicine used to treat susceptible bacterial infections. The active ingredient, strength and duration of treatment depend on the exact product; use only according to a prescription or qualified healthcare advice.",
+    "name": "Ojen Oz",
+    "description": "ojen oz is an antibiotic medicine used to treat susceptible bacterial infections. The active ingredient, strength and duration of treatment depend on the exact product; use only according to a prescription or qualified healthcare advice.\r\nOjen Oz 10's: pack of 10. Active ingredients: ofloxacin 200 mg and ornidazole 500 mg per tablet. Availability and price vary by branch. Ask a LifeMed pharmacist if you have any questions.",
     "price": "40.00",
     "buying_price": null,
     "stock_quantity": 10,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/ojen_oz.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.197Z"
   }
@@ -7800,8 +7059,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Amoxiclav_625_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.213Z"
   }
@@ -7819,8 +7078,8 @@
     "stock_quantity": 1,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Amoxiclav_325_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.221Z"
   }
@@ -7838,29 +7097,10 @@
     "stock_quantity": 3,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefuroxime_syrup125mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.229Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 400,
-  "fields": {
-    "category": null,
-    "item_id": "",
-    "name": "Saline drops (adult nasal drops)",
-    "description": "Sodium chloride saline solution is used for appropriate fluid replacement, cleansing or irrigation depending on the formulation. Confirm the concentration and intended route before use.",
-    "price": "100.00",
-    "buying_price": null,
-    "stock_quantity": 2,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:44.237Z"
   }
 },
 {
@@ -7869,7 +7109,7 @@
   "fields": {
     "category": 14,
     "item_id": "",
-    "name": "Fevapyn  extra 100ml (brufen syrup)",
+    "name": "Fevapyn  extra 100ml",
     "description": "Brufen contains ibuprofen, a non-steroidal anti-inflammatory medicine used to relieve pain, reduce inflammation and lower fever. It is commonly used for conditions such as headache, dental pain, muscle or joint pain and menstrual pain. Strengths and formulations vary, so follow the directions on the specific pack or advice from a pharmacist.",
     "price": "150.00",
     "buying_price": null,
@@ -7877,7 +7117,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Fevapyn__extra_100ml_brufen_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.247Z"
   }
@@ -7896,7 +7136,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Gastrogel__gel_100_ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.254Z"
   }
@@ -7907,7 +7147,7 @@
   "fields": {
     "category": 29,
     "item_id": "",
-    "name": "sulphur cream",
+    "name": "Sulphur Ointment",
     "description": "sulphur cream is a topical preparation intended for application to the skin for the condition stated on the product label. Apply as directed and check the active ingredients before use.",
     "price": "100.00",
     "buying_price": null,
@@ -7915,7 +7155,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/sulphur_cream.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.262Z"
   }
@@ -7934,7 +7174,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ampiclox_tablets_500mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.269Z"
   }
@@ -7953,7 +7193,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ascoril_expectorant_200ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.275Z"
   }
@@ -7972,7 +7212,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Alcof__60ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.282Z"
   }
@@ -7991,7 +7231,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Becoatin_tablets.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.289Z"
   }
@@ -8009,8 +7249,8 @@
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefalexin_caps_250mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.295Z"
   }
@@ -8021,7 +7261,7 @@
   "fields": {
     "category": 15,
     "item_id": "",
-    "name": "Cophy drex exopectorant 60ml",
+    "name": "Cophydrex exopectorant",
     "description": "Cophy drex exopectorant 60ml is a cough or cold preparation intended to relieve the respiratory symptoms specified on its label. Ingredients and suitability vary by formulation, so follow the pack directions and seek pharmacist advice where needed.",
     "price": "100.00",
     "buying_price": null,
@@ -8029,7 +7269,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cophy_drex_exopectorant_100ml_0Z5p8zi.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.304Z"
   }
@@ -8040,7 +7280,7 @@
   "fields": {
     "category": 12,
     "item_id": "",
-    "name": "cetrizine (rinacet) 60mls",
+    "name": "Cetrizine 60mls (rinacet)",
     "description": "Cetirizine is an antihistamine used to relieve allergy symptoms such as sneezing, runny nose, itching and watery eyes. Some people may experience drowsiness.",
     "price": "50.00",
     "buying_price": null,
@@ -8048,7 +7288,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/cetrizine_rinacet_60mls.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.311Z"
   }
@@ -8067,28 +7307,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cetrihist__expectorant_60ml.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.318Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 412,
-  "fields": {
-    "category": 28,
-    "item_id": "",
-    "name": "branulars, blue, pink, yellow",
-    "description": "branulars, blue, pink, yellow is an injectable medicine intended for use in appropriate clinical settings. The exact indication, concentration, route and dose depend on the formulation and should be confirmed by a trained healthcare professional.",
-    "price": "20.00",
-    "buying_price": null,
-    "stock_quantity": 30,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:44.329Z"
   }
 },
 {
@@ -8105,7 +7326,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Natoa_Mebendazole_syrup.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.336Z"
   }
@@ -8123,8 +7344,8 @@
     "stock_quantity": 0,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefixime_200mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.344Z"
   }
@@ -8142,8 +7363,8 @@
     "stock_quantity": 2,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefuroxime_500mg_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.350Z"
   }
@@ -8161,8 +7382,8 @@
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Cefalexin_caps_500mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.356Z"
   }
@@ -8173,15 +7394,15 @@
   "fields": {
     "category": 9,
     "item_id": "",
-    "name": "Cotrimaxole  960mg tabs (septrin)",
-    "description": "Cotrimaxole  960mg tabs (septrin) is an antibiotic medicine used to treat susceptible bacterial infections. The active ingredient, strength and duration of treatment depend on the exact product; use only according to a prescription or qualified healthcare advice.",
+    "name": "Co-trimoxazole  960mg (septrin)",
+    "description": "Co-trimoxazole  960mg  (septrin) is an antibiotic medicine used to treat susceptible bacterial infections. The active ingredient, strength and duration of treatment depend on the exact product; use only according to a prescription or qualified healthcare advice.",
     "price": "10.00",
     "buying_price": null,
     "stock_quantity": 100,
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Cotrimaxole__960mg_tabs_septrin.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.363Z"
   }
@@ -8199,8 +7420,8 @@
     "stock_quantity": 50,
     "min_stock_level": 0,
     "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
+    "requires_prescription": true,
+    "image": "products/Fluconazole_200mg.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.370Z"
   }
@@ -8219,28 +7440,9 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Brufen_400mg_tabs.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.376Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 420,
-  "fields": {
-    "category": 23,
-    "item_id": "",
-    "name": "paracetamol 500mg tablets (pcm)",
-    "description": "paracetamol 500mg tablets (pcm) is an oral pain-relief medicine used for the indications covered by its active ingredient. Check the strength and ingredients before use and follow the recommended dose.",
-    "price": "2.00",
-    "buying_price": null,
-    "stock_quantity": 300,
-    "min_stock_level": 0,
-    "expiry_date": null,
-    "requires_prescription": false,
-    "image": "",
-    "is_active": true,
-    "created_at": "2026-09-11T15:40:44.382Z"
   }
 },
 {
@@ -8249,7 +7451,7 @@
   "fields": {
     "category": 18,
     "item_id": "",
-    "name": "Ranferon caps",
+    "name": "Ranferon capsules",
     "description": "Ranferon is a haematinic supplement containing iron and vitamins used to help prevent or treat iron deficiency and support healthy red blood cell production. The exact ingredients can vary by formulation, so check the product label for the specific composition and recommended dose.",
     "price": "20.00",
     "buying_price": null,
@@ -8257,7 +7459,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/Ranferon_caps.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.389Z"
   }
@@ -8268,7 +7470,7 @@
   "fields": {
     "category": 10,
     "item_id": "",
-    "name": "safety box",
+    "name": "Safety Box",
     "description": "Sharps container designed for safe collection and disposal of used needles, lancets and other sharp medical waste. Close and dispose of according to local clinical-waste procedures.",
     "price": "0.00",
     "buying_price": null,
@@ -8276,7 +7478,7 @@
     "min_stock_level": 0,
     "expiry_date": null,
     "requires_prescription": false,
-    "image": "",
+    "image": "products/safety_box.jpg",
     "is_active": true,
     "created_at": "2026-09-11T15:40:44.395Z"
   }
